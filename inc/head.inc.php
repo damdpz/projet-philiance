@@ -10,6 +10,10 @@
     <meta description="Site street wear">
     <!-- Intégration du CSS au PHP -->
     <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/index.css">
+    <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/article.css">
+    <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/category.css">
+    <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/compte.css">
+    <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/panier.css">
     <link rel="shortcut icon" href="../assets/img/logo/LOGO_DAIKLES.jpg">
     <title>DAIKLES</title>
 </head>
