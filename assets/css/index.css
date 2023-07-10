@@ -271,3 +271,7 @@ nav ul li:hover:nth-child(6) a{
     border: solid 1px black;
     font-weight: bold;
 }
+
+footer{
+    background-color: #000000;
+}
