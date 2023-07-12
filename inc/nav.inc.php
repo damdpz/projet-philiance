@@ -8,7 +8,7 @@
 
     <nav>
         <div class="hamburger-container">
-            <div class="hamburger close">
+            <div class="hamburger">
 
             </div>
         </div>
