@@ -1,23 +1,58 @@
 <footer>
-    <div>
-    <img src="assets/img/logo/LOGO_DAIKLES.jpg" alt="logo">
+
+
+
+
+    <div class="logo-footer">
+        <a href="index.php"><img src="assets/img/logo/LOGO_DAIKLES.jpg" alt="LOGO_DAIKLES" height="60px"></a>
     </div>
 
-    <form action="">
-        <label for=""></label>
-        <input type="text">
-        <input type="submit">
+    <form action="" class="newsletter">
+        <label for="">
+            <h3>Newsletter</h3>
+        </label>
+        <input type="text" class="email" placeholder="Adresse e-mail">
+        <input class="btn-email" type="submit">
     </form>
 
     <div class="nav-footer">
+        <h3>Footer</h3>
         <ul>
-        <li><a href="homme.php">Homme</a></li>
+            <li><a href="homme.php">Homme</a></li>
             <li><a href="homme.php">Femme</a></li>
             <li><a href="homme.php">Sneakers</a></li>
             <li><a href="homme.php">Accessoires</a></li>
             <li><a href="compte.php">Mon compte</a></li>
         </ul>
     </div>
+
+    <div class="nav-compte">
+        <h3>Espace Compte</h3>
+        <ul>
+            <li><a href="homme.php">Connexion</a></li>
+            <li><a href="homme.php">Créer un compte</a></li>
+            <li><a href="homme.php">Accessoires</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-category">
+        <h3>Catégorie</h3>
+        <ul>
+            <li><a href="homme.php">Vêtements</a></li>
+            <li><a href="homme.php">Sneakers</a></li>
+            <li><a href="homme.php">Accessoires</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-condition">
+        <ul>
+            <li><a href="homme.php">Mentions légales</a></li>
+            <li><a href="homme.php">Conditions</a></li>
+            <li><a href="homme.php">Politique de confidentialité</a></li>
+        </ul>
+    </div>
+
+
 
 
 
