@@ -1,0 +1,18 @@
+main{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.connexion{
+    width: 380px;
+    height: 320px;
+    padding: 101px;
+    text-align: center;
+    background-color: rgb(212, 210, 210, .3);
+    border-radius: 40px;
+    border-left: 1px solid rgb(112, 111, 111, .3);
+    border-top: 1px solid rgb(112, 111, 111, .3);
+}
