@@ -13,7 +13,9 @@ require_once("inc/nav.inc.php");
 
 
 <main>
-
+ <form>
+    <h1>COMPTE</h1>
+ </form>
 
 
 
