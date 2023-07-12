@@ -148,7 +148,7 @@ require_once("inc/nav.inc.php");
             <div class="grid-text">
                 <div class="grid-text-content">
                     <h2>Summer 2023</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vero laudantium adipisci voluptatibus in dolorem expedita neque, suscipit repellendus illo, perferendis qui. Blanditiis expedita vel doloribus aliquam temporibus, provident qui doloremque voluptatum impedit consequatur. Debitis pariatur cum nam saepe laboriosam. Repudiandae autem ad debitis eos quisquam maiores quibusdam placeat error.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vero laudantium adipisci voluptatibus in dolorem expedita neque, suscipit repellendus illo, perferendis qui. </p>
                 </div>
                 <a href="#" class="btn-about">Bouton</a>
             </div>
