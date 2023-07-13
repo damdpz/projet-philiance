@@ -56,7 +56,7 @@ require_once("inc/nav.inc.php");
     <section class="about-container">
         <div class="grid-about">
             <div class="grid-video">
-                <video src="assets/videos/category.mp4" type="video.mp4" width="100%" autoplay="true" muted loop></video>
+                <video src="assets/videos/videocategory.mp4" type="video.mp4" width="100%" autoplay="true" muted loop></video>
             </div>
             <div class="grid-text">
                 <div class="grid-text-content">
