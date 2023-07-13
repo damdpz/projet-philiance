@@ -15,7 +15,7 @@ require_once("inc/nav.inc.php");
 
 
 <div class="carroussel">
-        <img src=""alt="photo_01">
+        <img src="assets/img/category/img-category.jpg" alt="photo_01">
     </div>
 
     <section>
