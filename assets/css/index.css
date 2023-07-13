@@ -6,7 +6,6 @@ body{
 
 /* ------------- Navigation --------------------*/
 .hamburger-container{
-
     width: 50px;
     height: 50px;
     display: none;
@@ -594,7 +593,7 @@ footer{
     padding-top: 20px;
 }
 /* ----------Accordion----------- */
-/* .accordion{
+.accordion{
     display: grid;
     grid-column-start: 1;
     grid-row-start: 4; 
@@ -612,11 +611,11 @@ footer{
     grid-column-start: 1;
     grid-row-start: 3;
     grid-row-end: 4;  
-} */
-.accordion{
+}
+/* .accordion{
     grid-column-start: 1;
     grid-row-start: 2;
-}
+} */
 
 
 

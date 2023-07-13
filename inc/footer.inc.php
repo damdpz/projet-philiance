@@ -50,7 +50,7 @@
         </ul>
     </div>
 
-    <!-- <div class="accordion">
+    <div class="accordion">
         <ul class="section">
             <h3>Espace compte</h3>
             <li>Connexion</li>
@@ -73,9 +73,9 @@
             <li>Mon compte</li>
             <hr>
         </ul>
-    </div> -->
+    </div>
 
-    <ul class="accordion">
+    <!-- <ul class="accordion">
         <li>
             <input type="radio" name="accordion" id="first" checked>
             <label for="first">Espace compte</label>
@@ -97,7 +97,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
             </div>
         </li>
-    </ul>
+    </ul> -->
 
 
 
