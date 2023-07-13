@@ -30,7 +30,7 @@ $categories = array(
         )
     ),
     "sneakers" => array(
-        "showcase" => "assets/img/category/img-category.jpg",
+        "showcase" => "assets/img/category/img-sneakers.jpg",
         "subcat" => array(
             "mocasin" => "assets/img/category/jean.jpg",
             "talons" => "assets/img/category/t-shirt.jpg",
@@ -39,7 +39,7 @@ $categories = array(
         )
     ),
     "accessoires" => array(
-        "showcase" => "assets/img/category/img-category.jpg",
+        "showcase" => "assets/img/category/img-accessoires.jpg",
         "subcat" => array(
             "ceintures" => "assets/img/category/jean.jpg",
             "sac" => "assets/img/category/t-shirt.jpg",
