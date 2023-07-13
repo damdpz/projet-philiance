@@ -1,9 +1,7 @@
 main{
-    
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 

@@ -85,7 +85,7 @@ require_once("inc/nav.inc.php");
         </div>
         <div class="category">
             <div class="category-product">
-                <img src="assets/img/trois-blocs/vêtement_03.jpg" alt="photo_vêtement"/>
+                <img src="assets/img/trois-blocs/vetement_03.jpg" alt="photo_vêtement"/>
                 <div class="overlay-btn">
                     <a href="#" class="category-btn">Vêtements</a>
                 </div>
