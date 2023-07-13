@@ -73,42 +73,36 @@ require_once("inc/nav.inc.php");
             <h2>Nouveauté</h2>
         </div>
         
-        <div class="nouveauté">
-            <div class="nouveauté-product">
+        <div class="whatsnew">
+            <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/pantalon.webp" alt="Article01">
                 <div class="type-nouveauté">
                     <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-nouveauté">269.99€</a>
             </div>
-
-        <div class="nouveauté">
-            <div class="nouveauté-product">
+            <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/casquette.webp" alt="Article02">
                 <div class="type-nouveauté">
                     <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-nouveauté">269.99€</a>
             </div>
-
-        <div class="nouveauté">
-            <div class="nouveauté-product">
+            <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/lunette.webp" alt="Article03">
                 <div class="type-nouveauté">
                     <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-nouveauté">269.99€</a>
             </div>
-
-        <div class="nouveauté">
-            <div class="nouveauté-product">
+            <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/pull.jpg" alt="Article04">
                 <div class="type-nouveauté">
                     <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-nouveauté">269.99€</a>
             </div>
-
+        </div>  
     <section>
         <div class="notre-selection">
             <h2>Notre Selection</h2>
@@ -122,8 +116,6 @@ require_once("inc/nav.inc.php");
                 </div>
                 <a href="#" class="price-notre-selection">269.99€</a>
             </div>     
-
-        <div class="notre-selection">
             <div class="notre-selection-product">
                 <img src="assets/img/best-seller/produit-02/02.webp" alt="Article06">
                 <div class="type-notre-selection">
@@ -131,17 +123,15 @@ require_once("inc/nav.inc.php");
                 </div>
                 <a href="#" class="price-notre-selection">269.99€</a>
             </div> 
-            
-            <div class="notre-selection">
-                <div class="notre-selection-product">
+            <div class="notre-selection-product">
                 <img src="assets/img/best-seller/produit-03/02.webp" alt="Article07">
                 <div class="type-notre-selection">
                     <a href="#" class="btn-notre-selection">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-notre-selection">269.99€</a>
+                </div>
             </div>    
-
-
+        </div>
 </main>
 
 <?php
