@@ -15,7 +15,7 @@ require_once("inc/nav.inc.php");
 
 <main>
     <div class="carroussel">
-        <img src="assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01">
+        <img src="assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01"/>
         <h2>La mode passe,<br> le style reste.</h2>
     </div>
 
@@ -25,7 +25,7 @@ require_once("inc/nav.inc.php");
         </div>
         <div class="new-product">
             <div class="product">
-                <img src="assets/img/nouveautes/sneakers.jpg" alt="sneakers">
+                <img src="assets/img/nouveautes/sneakers.jpg" alt="sneakers"/>
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">WMNS DUNK LOW LX</a>
@@ -35,7 +35,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/casquette.webp" alt="casquette">
+                <img src="assets/img/nouveautes/casquette.webp" alt="casquette"/>
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">HERITAGE86 FUTURA WASHED CAP</a>
@@ -45,7 +45,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/lunette.webp" alt="casquette">
+                <img src="assets/img/nouveautes/lunette.webp" alt="casquette"/>
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">03.2 BLACK SUNGLASSES</a>
@@ -55,7 +55,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/veste.webp" alt="veste">
+                <img src="assets/img/nouveautes/veste.webp" alt="veste"/>
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">X WALES BONNER KNIT TRACK TOP</a>
@@ -65,7 +65,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/pantalon.webp" alt="pantalon">
+                <img src="assets/img/nouveautes/pantalon.webp" alt="pantalon"/>
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">SPRINGDALE RELAXED</a>
@@ -85,19 +85,19 @@ require_once("inc/nav.inc.php");
         </div>
         <div class="category">
             <div class="category-product">
-                <img src="assets/img/trois-blocs/vêtement_03.jpg" alt="photo_vêtement">
+                <img src="assets/img/trois-blocs/vêtement_03.jpg" alt="photo_vêtement"/>
                 <div class="overlay-btn">
                     <a href="#" class="category-btn">Vêtements</a>
                 </div>
             </div>
             <div class="category-product">
-                <img src="assets/img/trois-blocs/sneakers_01.jpg" alt="photo_sneakers">
+                <img src="assets/img/trois-blocs/sneakers_01.jpg" alt="photo_sneakers"/>
                 <div class="overlay-btn">
                     <a href="#" class="category-btn">Sneakers</a>
                 </div>
             </div>
             <div class="category-product">
-                <img src="assets/img/trois-blocs/accessoire_01.jpg" alt="photo_accessoires">
+                <img src="assets/img/trois-blocs/accessoire_01.jpg" alt="photo_accessoires"/>
                 <div class="overlay-btn">
                     <a href="#" class="category-btn">Accessoires</a>
                 </div>
@@ -111,28 +111,28 @@ require_once("inc/nav.inc.php");
         </div>
         <div class="best-seller">
             <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-01/01.webp" alt="Article01">
+                <img src="assets/img/best-seller/produit-01/01.webp" alt="Article01"/>
                 <div class="type-best-seller">
                     <a href="#" class="btn-best-seller">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-best-seller">269.99€</a>
             </div>
             <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-02/01.webp" alt="Article02">
+                <img src="assets/img/best-seller/produit-02/01.webp" alt="Article02"/>
                 <div class="type-best-seller">
                     <a href="#" class="btn-best-seller">NIKEAIR VAPORMAX 2023 FK</a>
                 </div>
                 <a href="#" class="price-best-seller">269.99€</a>
             </div>
             <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-03/01.webp" alt="Article03">
+                <img src="assets/img/best-seller/produit-03/01.webp" alt="Article03"/>
                 <div class="type-best-seller">
                     <a href="#" class="btn-product">NIKESPORTSWEAR TEE</a>
                 </div>
                 <a href="#" class="price-best-seller">269.99€</a>
             </div>
             <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-04/01.webp" alt="Article04">
+                <img src="assets/img/best-seller/produit-04/01.webp" alt="Article04"/>
                 <div class="type-best-seller">
                     <a href="#" class="btn-best-seller">CHIMI EYEWEAR04 LIGHT GREEN SUNGLASSES</a>
                 </div>
