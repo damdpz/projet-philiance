@@ -1,20 +1,27 @@
-const hamburger = document.querySelector(".hamburger");
-const hamburgerContainer = document.querySelector(".hamburger-container");
-const nav = document.querySelector(".nav");
+window.onload = (event) => {
+    let sections = document.querySelectorAll('.accordion>.section');
 
-hamburgerContainer.addEventListener("click", () =>{
-    hamburger.classList.toggle("close")
-    nav.classList.toggle("show")
-});
+    sections.forEach(section => {
+        // console.log(sections)
+        section.addEventListener('click', event => {
+            event.stopPropagation()
+            // console.log(this)
+            console.log("click")
+            let reveal = section.querySelectorAll(".reveal li");
+            reveal.forEach((el)=> {
+                el.classList.toggle('unrolled');
+            })
+        }, false)
+    });
+    
 
-// const sections = document.querySelectorAll('.accordionSection');
 
-// sections.forEach(section => {
-//     section.addEventListener('click', event => {
-//         if(event.target != section) return;
-//         for(let i = 0; section.children.length > i; i++) {
-//             section.children[i].classList.toggle('unrolled');
-//         }
-//     })
-// });
-
+    let hamburger = document.querySelector(".hamburger");
+    let hamburgerContainer = document.querySelector(".hamburger-container");
+    let nav = document.querySelector(".nav");
+    
+    hamburgerContainer.addEventListener("click", () =>{
+        hamburger.classList.toggle("close")
+        nav.classList.toggle("show")
+    });
+};

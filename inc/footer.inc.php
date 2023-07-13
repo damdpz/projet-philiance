@@ -51,28 +51,35 @@
     </div>
 
     <div class="accordion">
+
         <ul class="section">
             <h3>Espace compte</h3>
-            <li>Connexion</li>
-            <li>Créer un compte</li>
-            <hr>
+            <div class="reveal">
+                <li>Connexion</li>
+                <li>Créer un compte</li>
+            </div>
         </ul>
+        <hr>
         <ul class="section">
             <h3>Catégorie</h3>
-            <li>Vêtements</li>
-            <li>Sneakers</li>
-            <li>Accessoires</li>
-            <hr>
+            <div class="reveal">
+                <li>Vêtements</li>
+                <li>Sneakers</li>
+                <li>Accessoires</li>
+            </div>
         </ul>
+        <hr>
         <ul class="section">
             <h3>Footer</h3>
-            <li><a href="../PROJET_PHILIANCE/article.php"></a>Homme</li>
-            <li>Femme</li>
-            <li>Sneakers</li>
-            <li>Accessoires</li>
-            <li>Mon compte</li>
-            <hr>
+            <div class="reveal">
+                <li><a href="article.php"></a>Homme</li>
+                <li>Femme</li>
+                <li>Sneakers</li>
+                <li>Accessoires</li>
+                <li>Mon compte</li>
+            </div>
         </ul>
+
     </div>
 
     <!-- <ul class="accordion">
