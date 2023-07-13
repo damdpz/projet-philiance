@@ -49,7 +49,7 @@ $categories = array(
     )
     );
 if(isset($page)) {
-    $list = $categories[$page];
+    $list = $categories[$page]; //$categories["homme"];
     $showcase = $categories[$page]["showcase"];
     $subcat = $categories[$page]["subcat"];
     // echo var_dump($list);
