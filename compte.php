@@ -14,9 +14,10 @@ require_once("inc/nav.inc.php");
 
 <main>
     <div class="form1">
+        <img src="assets/img/image-compte/coucher-de-soleil.jpg" alt="background">
         <!--FORMULAIRE-->
  <form class="connexion">
-    <h1>COMPTE</h1>
+    <h1>Mon compte</h1>
 
     <div class="champ">
 

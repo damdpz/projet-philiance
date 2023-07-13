@@ -1,20 +1,30 @@
-main{
-    align-content: center;
+
+
+.form1{
+    display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-
+.form1 img{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin-top: 50px;
+}
 
 .connexion{
     width: 380px;
     height: 320px;
-    padding: 101px;
+    padding: 100px;
     text-align: center;
-    background-color: rgb(212, 210, 210, .3);
+    background-color: rgb(212, 210, 210, 0.90);
     border-radius: 40px;
     border-left: 1px solid rgb(112, 111, 111, .3);
     border-top: 1px solid rgb(112, 111, 111, .3);
+    z-index: 4;
+    position: absolute;
+    margin-top: 100px;
    
 }
 
@@ -29,14 +39,14 @@ h1{
 
 .pw{
     text-decoration: none;
-    color: #afafaf;
+    color: #929191;
     transition: all .3s;
     margin-left: 230px;
 }
 
 .pw:hover{
    
-    color: rgb(80, 80, 80);
+    color: rgb(64, 64, 64);
 
 }
 
@@ -59,10 +69,16 @@ h1{
 
 .champ1{
     border-top: 1px solid black;
-    background-color: rgb(231 231 231);
+    background-color: rgb(205, 203, 203);
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
+}
+
+.connexion input[type="button"]{
+
+    border: none;
+    background-color: #afafaf;
 }

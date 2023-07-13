@@ -1,18 +1,55 @@
-main{
-    
+
+.form1{
     display: flex;
-    align-content: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.connexion{
-    width: 380px;
-    height: 320px;
-    padding: 101px;
+.form1 img{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    margin-top: 50px;
+}
+
+.connexion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 251px;
+    height: 466px;
+    padding: 81px;
     text-align: center;
-    background-color: rgb(212, 210, 210, .3);
+    background-color: rgb(212, 210, 210, 0.90);
     border-radius: 40px;
     border-left: 1px solid rgb(112, 111, 111, .3);
     border-top: 1px solid rgb(112, 111, 111, .3);
+    z-index: 4;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+form{
+    display: flex;
+}
+
+
+.connexion1 input[type="submit"]{
+
+    margin-top: 15px;
+
+}
+
+.connexion1 input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"]{
+    border: none;
+    border-bottom: 1px solid rgb(112, 111, 111, .3);
+    background-color:rgb(237 237 237 / 30%);
+}
+
+.connexion1 input[type="submit"]{
+
+    border: none;
+    background-color: #afafaf;
 }
