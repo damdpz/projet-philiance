@@ -15,7 +15,7 @@ require_once("inc/nav.inc.php");
 
 <main>
     <div class="carroussel">
-        <img src="../PROJET_PHILIANCE/assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01">
+        <img src="assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01">
         <h2>La mode passe,<br> le style reste.</h2>
     </div>
 
@@ -25,7 +25,7 @@ require_once("inc/nav.inc.php");
         </div>
         <div class="new-product">
             <div class="product">
-                <img src="../PROJET_PHILIANCE/assets/img/nouveautes/sneakers.jpg" alt="sneakers">
+                <img src="assets/img/nouveautes/sneakers.jpg" alt="sneakers">
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">WMNS DUNK LOW LX</a>
@@ -35,7 +35,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="../PROJET_PHILIANCE/assets/img/nouveautes/casquette.webp" alt="casquette">
+                <img src="assets/img/nouveautes/casquette.webp" alt="casquette">
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">HERITAGE86 FUTURA WASHED CAP</a>
@@ -45,7 +45,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="../PROJET_PHILIANCE/assets/img/nouveautes/lunette.webp" alt="casquette">
+                <img src="assets/img/nouveautes/lunette.webp" alt="casquette">
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">03.2 BLACK SUNGLASSES</a>
@@ -55,7 +55,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="../PROJET_PHILIANCE/assets/img/nouveautes/veste.webp" alt="veste">
+                <img src="assets/img/nouveautes/veste.webp" alt="veste">
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">X WALES BONNER KNIT TRACK TOP</a>
@@ -65,7 +65,7 @@ require_once("inc/nav.inc.php");
                 </div>
             </div>
             <div class="product">
-                <img src="../PROJET_PHILIANCE/assets/img/nouveautes/pantalon.webp" alt="pantalon">
+                <img src="assets/img/nouveautes/pantalon.webp" alt="pantalon">
                 <div class="detail-product">
                     <div class="type-product">
                         <a href="#">SPRINGDALE RELAXED</a>
