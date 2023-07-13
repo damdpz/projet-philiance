@@ -16,10 +16,10 @@
             <a href="index.php"><img src="assets/img/logo/LOGO_DAIKLES.jpg" alt="LOGO_DAIKLES" height="50px"></a>
         </div>
         <ul class="nav">
-            <li><a href="category.php">Homme</a></li>
-            <li><a href="category.php">Femme</a></li>
-            <li><a href="category.php">Sneakers</a></li>
-            <li><a href="category.php">Accessoires</a></li>
+            <li><a href="category.php?page=homme">Homme</a></li>
+            <li><a href="category.php?page=femme">Femme</a></li>
+            <li><a href="category.php?page=sneakers">Sneakers</a></li>
+            <li><a href="category.php?page=accessoires">Accessoires</a></li>
             <li><a href="compte.php">Mon compte</a></li>
         </ul>
         <div class="panier"><a href="panier.php"><svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 97.7" style="enable-background:new 0 0 100 97.7;" width=30px height=30px xml:space="preserve">

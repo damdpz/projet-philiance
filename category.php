@@ -8,6 +8,53 @@ require_once("inc/function.inc.php");
 
 require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
+$page = $_GET["page"];
+// echo var_dump($page);
+$categories = array(
+    "homme" => array(
+        "showcase" => "assets/img/category/img-category.jpg",
+        "subcat" => array(
+            "jean" => "assets/img/category/jean.jpg",
+            "T-shirt" => "assets/img/category/t-shirt.jpg",
+            "Sneakers" => "assets/img/category/sneakers.jpg",
+            "Accessoires" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "femme" => array(
+        "showcase" => "assets/img/category/t-shirt.jpg",
+        "subcat" => array(
+            "robe" => "assets/img/category/jean.jpg",
+            "T-shirt" => "assets/img/category/t-shirt.jpg",
+            "Sneakers" => "assets/img/category/sneakers.jpg",
+            "Accessoires" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "sneakers" => array(
+        "showcase" => "assets/img/category/img-category.jpg",
+        "subcat" => array(
+            "mocasin" => "assets/img/category/jean.jpg",
+            "talons" => "assets/img/category/t-shirt.jpg",
+            "bottes" => "assets/img/category/sneakers.jpg",
+            "espadrilles" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "accessoires" => array(
+        "showcase" => "assets/img/category/img-category.jpg",
+        "subcat" => array(
+            "ceintures" => "assets/img/category/jean.jpg",
+            "sac" => "assets/img/category/t-shirt.jpg",
+            "lunettes" => "assets/img/category/sneakers.jpg",
+            "chapeaux" => "assets/img/category/accessoires.jpg"
+        )
+    )
+    );
+if(isset($page)) {
+    $list = $categories[$page];
+    $showcase = $categories[$page]["showcase"];
+    $subcat = $categories[$page]["subcat"];
+    // echo var_dump($list);
+}
+
 
 ?>
 
@@ -15,7 +62,7 @@ require_once("inc/nav.inc.php");
 
 
 <div class="carroussel">
-        <img src="assets/img/category/img-category.jpg" alt="photo_01">
+        <img src="<?php echo $showcase ?>" alt="photo_01">
     </div>
 
     <section>
@@ -24,32 +71,14 @@ require_once("inc/nav.inc.php");
         </div>
         
         <div class="category">
+            <?php foreach ($subcat as $key => $value): ?>
             <div class="category-product">
-                <img src="assets/img/category/jean.jpg" alt="photo_jean">
+                <img src="<?php echo $value ?>" alt="<?php echo $key ?>">
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Jean</a>
+                    <a href="#" class="category-btn"><?php echo $key ?></a>
                 </div>
             </div>
-
-            <div class="category-product">
-                <img src="assets/img/category/t-shirt.jpg" alt="photo_t-shirt">
-                <div class="overlay-btn">
-                    <a href="#" class="category-btn">T-shirt</a>
-                </div>
-            </div>    
-           
-            <div class="category-product">
-                <img src="assets/img/category/sneakers.jpg" alt="photo_sneakers">
-                <div class="overlay-btn">
-                    <a href="#" class="category-btn">Sneakers</a>
-                </div>
-            </div>
-            <div class="category-product">
-                <img src="assets/img/category/accessoires.jpg" alt="photo_accessoires">
-                <div class="overlay-btn">
-                    <a href="#" class="category-btn">Accessoires</a>
-                </div>
-            </div>
+            <?php endforeach ?>
         </div>
     </section>
 
