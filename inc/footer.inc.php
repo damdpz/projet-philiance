@@ -50,22 +50,22 @@
         </ul>
     </div>
 
-    <div class="accordion">
-        <h3>Espace compte</h3>
-        <ul class="accordionSection">
+    <!-- <div class="accordion">
+        <ul class="section">
+            <h3>Espace compte</h3>
             <li>Connexion</li>
             <li>Créer un compte</li>
             <hr>
         </ul>
-        <h3>Catégorie</h3>
-        <ul class="accordionSection">
+        <ul class="section">
+            <h3>Catégorie</h3>
             <li>Vêtements</li>
             <li>Sneakers</li>
             <li>Accessoires</li>
             <hr>
         </ul>
-        <h3>Footer</h3>
-        <ul class="accordionSection">
+        <ul class="section">
+            <h3>Footer</h3>
             <li><a href="../PROJET_PHILIANCE/article.php"></a>Homme</li>
             <li>Femme</li>
             <li>Sneakers</li>
@@ -73,8 +73,31 @@
             <li>Mon compte</li>
             <hr>
         </ul>
-    </div>
+    </div> -->
 
+    <ul class="accordion">
+        <li>
+            <input type="radio" name="accordion" id="first" checked>
+            <label for="first">Espace compte</label>
+            <div class="content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Catégorie</label>
+            <div class="content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Footer</label>
+            <div class="content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
+            </div>
+        </li>
+    </ul>
 
 
 

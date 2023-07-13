@@ -15,6 +15,6 @@
     <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/compte.css">
     <link rel="stylesheet" href="../PROJET_PHILIANCE/assets/css/panier.css">
     <link rel="shortcut icon" href="../assets/img/logo/LOGO_DAIKLES.jpg">
-    <script defer src="../PROJET_PHILIANCE/assets/js/index.js"></script>
+    <script defer src="../assets/js/index.js"></script>
     <title>DAIKLES</title>
 </head>

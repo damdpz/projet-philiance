@@ -9,11 +9,11 @@ hamburgerContainer.addEventListener("click", () =>{
 
 const sections = document.querySelectorAll('.accordionSection');
 
-sections.forEach(accordionSection => {
-    accordionSection.addEventListener('click', event => {
-        if(event.target != accordionSection) return;
-        for(let i = 0; accordionSection.children.length > i; i++) {
-            accordionSection.children[i].classList.toggle('unrolled');
+sections.forEach(section => {
+    section.addEventListener('click', event => {
+        if(event.target != section) return;
+        for(let i = 0; section.children.length > i; i++) {
+            section.children[i].classList.toggle('unrolled');
         }
     })
 });
