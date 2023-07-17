@@ -12,7 +12,7 @@ $page = $_GET["page"];
 // echo var_dump($page);
 $categories = array(
     "homme" => array(
-        "showcase" => "assets/img/category/img-category.jpg",
+        "showcase" => "assets/img/category/01-homme.jpg",
         "subcat" => array(
             "jean" => "assets/img/category/jean.jpg",
             "T-shirt" => "assets/img/category/t-shirt.jpg",
@@ -21,12 +21,12 @@ $categories = array(
         )
     ),
     "femme" => array(
-        "showcase" => "assets/img/category/t-shirt.jpg",
+        "showcase" => "assets/img/category/01-femme.jpg",
         "subcat" => array(
-            "robe" => "assets/img/category/jean.jpg",
-            "T-shirt" => "assets/img/category/t-shirt.jpg",
-            "Sneakers" => "assets/img/category/sneakers.jpg",
-            "Accessoires" => "assets/img/category/accessoires.jpg"
+            "robe" => "assets/img/category/robe-femme.jpg",
+            "T-shirt" => "assets/img/category/t-shirt-femme.jpg",
+            "Sneakers" => "assets/img/category/sneakers-femme.jpg",
+            "Accessoires" => "assets/img/category/accessoires-femme.jpg"
         )
     ),
     "sneakers" => array(
