@@ -55,17 +55,17 @@
         <ul class="section">
             <h3>Espace compte</h3>
             <div class="reveal">
-                <li>Connexion</li>
-                <li>Créer un compte</li>
+                <li><a href="article.php">Connexion</li>
+                <li><a href="article.php">Créer un compte</li>
             </div>
         </ul>
         <hr>
         <ul class="section">
             <h3>Catégorie</h3>
             <div class="reveal">
-                <li>Vêtements</li>
-                <li>Sneakers</li>
-                <li>Accessoires</li>
+                <li><a href="article.php">Vêtements</li>
+                <li><a href="article.php">Sneakers</li>
+                <li><a href="article.php">Accessoires</li>
             </div>
         </ul>
         <hr>
@@ -73,42 +73,14 @@
             <h3>Footer</h3>
             <div class="reveal">
                 <li><a href="article.php"></a>Homme</li>
-                <li>Femme</li>
-                <li>Sneakers</li>
-                <li>Accessoires</li>
-                <li>Mon compte</li>
+                <li><a href="article.php">Femme</li>
+                <li><a href="article.php">Sneakers</li>
+                <li><a href="article.php">Accessoires</li>
+                <li><a href="article.php">Mon compte</li>
             </div>
         </ul>
 
     </div>
-
-    <!-- <ul class="accordion">
-        <li>
-            <input type="radio" name="accordion" id="first" checked>
-            <label for="first">Espace compte</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="accordion" id="second">
-            <label for="second">Catégorie</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="accordion" id="third">
-            <label for="third">Footer</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-    </ul> -->
-
-
-
-
 
 
 </footer>
