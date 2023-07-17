@@ -23,7 +23,7 @@ require_once("inc/nav.inc.php");
                         <h3>SWEETSHIRTS - CREW NECK</h3>
                     </div>
                     <div class="btn-article">
-                        <input type="submit" value="commander" class="form-control" aria-label="EURO amount (with dot and two decimal places)">
+                        <a href="panier.php"><input type="submit" value="commander" class="form-control" aria-label="EURO amount (with dot and two decimal places)"></a>
                         <span class="input-group-text">€</span>
                         <span class="input-group-text">199.99</span>
                     </div>
