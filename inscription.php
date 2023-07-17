@@ -8,6 +8,52 @@ echo '<link href="assets/css/inscription.css" rel="stylesheet" type="text/css">'
 
 require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
+$page = $_GET["page"];
+// echo var_dump($page);
+$categories = array(
+    "homme" => array(
+        "showcase" => "assets/img/category/img-category.jpg",
+        "subcat" => array(
+            "jean" => "assets/img/category/jean.jpg",
+            "T-shirt" => "assets/img/category/t-shirt.jpg",
+            "Sneakers" => "assets/img/category/sneakers.jpg",
+            "Accessoires" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "femme" => array(
+        "showcase" => "assets/img/category/t-shirt.jpg",
+        "subcat" => array(
+            "robe" => "assets/img/category/jean.jpg",
+            "T-shirt" => "assets/img/category/t-shirt.jpg",
+            "Sneakers" => "assets/img/category/sneakers.jpg",
+            "Accessoires" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "sneakers" => array(
+        "showcase" => "assets/img/category/img-sneakers.jpg",
+        "subcat" => array(
+            "mocasin" => "assets/img/category/jean.jpg",
+            "talons" => "assets/img/category/t-shirt.jpg",
+            "bottes" => "assets/img/category/sneakers.jpg",
+            "espadrilles" => "assets/img/category/accessoires.jpg"
+        )
+    ),
+    "accessoires" => array(
+        "showcase" => "assets/img/category/img-accessoires.jpg",
+        "subcat" => array(
+            "ceintures" => "assets/img/category/jean.jpg",
+            "sac" => "assets/img/category/t-shirt.jpg",
+            "lunettes" => "assets/img/category/sneakers.jpg",
+            "chapeaux" => "assets/img/category/accessoires.jpg"
+        )
+    )
+    );
+if(isset($page)) {
+    $list = $categories[$page]; //$categories["homme"];
+    $showcase = $categories[$page]["showcase"];
+    $subcat = $categories[$page]["subcat"];
+    // echo var_dump($list);
+}
 
 
 ?>
