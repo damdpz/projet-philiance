@@ -17,10 +17,10 @@
     <div class="nav-footer">
         <h3>Footer</h3>
         <ul>
-            <li><a href="homme.php">Homme</a></li>
-            <li><a href="homme.php">Femme</a></li>
-            <li><a href="homme.php">Sneakers</a></li>
-            <li><a href="homme.php">Accessoires</a></li>
+            <li><a href="article.php">Homme</a></li>
+            <li><a href="article.php">Femme</a></li>
+            <li><a href="article.php">Sneakers</a></li>
+            <li><a href="article.php">Accessoires</a></li>
             <li><a href="compte.php">Mon compte</a></li>
         </ul>
     </div>
@@ -28,17 +28,17 @@
     <div class="nav-compte">
         <h3>Espace Compte</h3>
         <ul>
-            <li><a href="homme.php">Connexion</a></li>
-            <li><a href="homme.php">Créer un compte</a></li>
+            <li><a href="article.php">Connexion</a></li>
+            <li><a href="article.php">Créer un compte</a></li>
         </ul>
     </div>
 
     <div class="nav-category">
         <h3>Catégorie</h3>
         <ul>
-            <li><a href="homme.php">Vêtements</a></li>
-            <li><a href="homme.php">Sneakers</a></li>
-            <li><a href="homme.php">Accessoires</a></li>
+            <li><a href="article.php">Vêtements</a></li>
+            <li><a href="article.php">Sneakers</a></li>
+            <li><a href="article.php">Accessoires</a></li>
         </ul>
     </div>
 
@@ -55,60 +55,32 @@
         <ul class="section">
             <h3>Espace compte</h3>
             <div class="reveal">
-                <li>Connexion</li>
-                <li>Créer un compte</li>
+                <li><a href="article.php">Connexion</a></li>
+                <li><a href="article.php">Créer un compte</a></li>
             </div>
         </ul>
         <hr>
         <ul class="section">
             <h3>Catégorie</h3>
             <div class="reveal">
-                <li>Vêtements</li>
-                <li>Sneakers</li>
-                <li>Accessoires</li>
+                <li><a href="article.php">Vêtements</a></li>
+                <li><a href="article.php">Sneakers</a></li>
+                <li><a href="article.php">Accessoires</a></li>
             </div>
         </ul>
         <hr>
         <ul class="section">
             <h3>Footer</h3>
             <div class="reveal">
-                <li><a href="article.php"></a>Homme</li>
-                <li>Femme</li>
-                <li>Sneakers</li>
-                <li>Accessoires</li>
-                <li>Mon compte</li>
+                <li><a href="article.php">Homme</a></li>
+                <li><a href="article.php">Femme</a></li>
+                <li><a href="article.php">Sneakers</a></li>
+                <li><a href="article.php">Accessoires</a></li>
+                <li><a href="article.php">Mon compte</a></li>
             </div>
         </ul>
 
     </div>
-
-    <!-- <ul class="accordion">
-        <li>
-            <input type="radio" name="accordion" id="first" checked>
-            <label for="first">Espace compte</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="accordion" id="second">
-            <label for="second">Catégorie</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-        <li>
-            <input type="radio" name="accordion" id="third">
-            <label for="third">Footer</label>
-            <div class="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe sed quasi quia veritatis cupiditate laborum perferendis quas corrupti ducimus? Recusandae repudiandae sed perferendis dolorum, laudantium libero facilis quam voluptas.</p>
-            </div>
-        </li>
-    </ul> -->
-
-
-
-
 
 
 </footer>
