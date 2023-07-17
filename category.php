@@ -23,7 +23,7 @@ $categories = array(
     "femme" => array(
         "showcase" => "assets/img/category/01-femme.jpg",
         "subcat" => array(
-            "robe" => "assets/img/category/robe-femme.jpg",
+            "jean" => "assets/img/category/jean.jpg",
             "T-shirt" => "assets/img/category/t-shirt-femme.jpg",
             "Sneakers" => "assets/img/category/sneakers-femme.jpg",
             "Accessoires" => "assets/img/category/accessoires-femme.jpg"
@@ -43,8 +43,8 @@ $categories = array(
         "subcat" => array(
             "ceintures" => "assets/img/category/jean.jpg",
             "sac" => "assets/img/category/t-shirt.jpg",
-            "lunettes" => "assets/img/category/sneakers.jpg",
-            "chapeaux" => "assets/img/category/accessoires.jpg"
+            "lunettes" => "assets/img/category/lunette-accessoires.jpg",
+            "casquette" => "assets/img/category/img-accessoires.jpg"
         )
     )
     );
