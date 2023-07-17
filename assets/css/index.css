@@ -601,7 +601,7 @@ footer h3{
         grid-row-start: 3; 
         font-family: Arial, Helvetica, sans-serif;   
     }
-    .accordion>hr{
+    .accordion hr{
         width: 100%;
     }
     .accordion ul {
@@ -611,6 +611,23 @@ footer h3{
     .accordion ul li{
         display: none;
     }
+
+    .accordion li{
+        list-style: none;
+        padding: 6px 0;
+    }
+    .accordion li:hover{
+        color: #000000;
+        text-decoration: underline;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .accordion li a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+
     .accordion ul li.unrolled{
         display: block;
         grid-column-start: 1;
