@@ -28,8 +28,8 @@
     <div class="nav-compte">
         <h3>Espace Compte</h3>
         <ul>
-            <li><a href="article.php">Connexion</a></li>
-            <li><a href="article.php">Créer un compte</a></li>
+            <li><a href="compte.php">Connexion</a></li>
+            <li><a href="inscription.php">Créer un compte</a></li>
         </ul>
     </div>
 
