@@ -18,29 +18,35 @@ require_once("inc/category.inc.php");
     <section>
         <div class="article-container">
             <div class="image-article">
-                <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pull.jpg" alt="pull">
-            </div>
-
-            <div class="description-article">
-                <div class="titre-article">
-                    <h3>SWEETSHIRTS - CREW NECK</h3>
+                <div class="one">
+                    <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pull.jpg" alt="pull">
                 </div>
-                <p> Le pull SWEATSHIRTS - CREW NECK de couleur bois de cèdre est disponible sur DAIKLES.
-                    Ce pull oversize est 100% Cotton</p>
-
-                <p>Numéro d'article: 15CMSS022AZE5086W-456
-                    <br>
-                    Sexe : Hommes
-                    <br>
-                    Couleur : Bois de cèdre
-                    <br>
-                    Matériel : 100% coton
-                </p>
-                <div class="btn-article">
-                    <span>199.99 €</span>
-                    <a href="panier.php"><input type="submit" value="Ajouter au panier"></a>
+                <div class="two">
+                    <image src="../PROJET_PHILIANCE/assets/img/category/" alt="pull">
                 </div>
             </div>
+            
+                <div class="description-article">
+                    <div class="titre-article">
+                        <h3>SWEETSHIRTS - CREW NECK</h3>
+                    </div>
+                    <p> Le pull SWEATSHIRTS - CREW NECK de couleur bois de cèdre est disponible sur DAIKLES.
+                        Ce pull oversize est 100% Cotton</p>
+
+                    <p>Numéro d'article: 15CMSS022AZE5086W-456
+                        <br>
+                        Sexe : Hommes
+                        <br>
+                        Couleur : Bois de cèdre
+                        <br>
+                        Matériel : 100% coton
+                    </p>
+                    <div class="btn-article">
+                        <span>199.99 €</span>
+                        <a href="panier.php"><input type="submit" value="Ajouter au panier"></a>
+                    </div>
+                </div>
+            
         </div>
 
     </section>

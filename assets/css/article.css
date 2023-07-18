@@ -1,15 +1,25 @@
 .article-container{
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    margin-top: 50px 0 0 50px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .image-article{
-    width: 70%;
+    display: grid;
+    grid-template-areas: 
+    "one two three";
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: auto;
 }
-.article-container img{
+.one{
+   grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+
+.image-article img{
     width: 100%;
 }
 
@@ -20,17 +30,14 @@
     display: flex;
     flex-direction: column;
 }
-.btn-article{
-    
-}
+
 .description-article{
     /* background-color:#EAEAEA; */
-    height: auto;
+    grid-column-start: 2;
+    height: 300px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 50px;
+    display: grid;
+    
 }
 .description-article p{
     text-align: left;
