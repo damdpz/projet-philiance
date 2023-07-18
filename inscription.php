@@ -19,7 +19,7 @@ require_once("inc/category.inc.php");
     <div class="form1">
         <img src="assets/img/image-compte/foret-printemps.jpg" alt="background">
         <!--FORMULAIRE-->
- <form class="connexion1">
+ <form method="$_POST" class="connexion1">
     <h1>Inscription</h1>
 
     <input type="text" placeholder="Nom" name="nom">

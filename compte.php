@@ -17,7 +17,7 @@ require_once("inc/category.inc.php");
     <div class="form1">
         <img src="assets/img/image-compte/coucher-de-soleil.jpg" alt="background">
         <!--FORMULAIRE-->
- <form class="connexion">
+ <form method="$_POST" class="connexion">
     <h1>Mon compte</h1>
 
     <div class="champ">
