@@ -41,8 +41,8 @@ $categories = array(
     "accessoires" => array(
         "showcase" => "assets/img/category/img-accessoires.jpg",
         "subcat" => array(
-            "ceintures" => "assets/img/category/jean.jpg",
-            "sac" => "assets/img/category/t-shirt.jpg",
+            "ceintures" => "assets/img/category/ceinture.jpg",
+            "sac" => "assets/img/category/sac.jpg",
             "lunettes" => "assets/img/category/lunette-accessoires.jpg",
             "casquette" => "assets/img/category/img-accessoires.jpg"
         )
@@ -139,7 +139,7 @@ if(isset($page)) {
         
         <div class="notre-selection">
             <div class="notre-selection-product">
-                <img src="assets/img/best-seller/produit-01/02.webp" alt="Article05">
+                <img src="assets/img/category/02-t-shirt.jpg" alt="Article05">
                 <div class="type-notre-selection">
                     <a href="#" class="btn-notre-selection">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
