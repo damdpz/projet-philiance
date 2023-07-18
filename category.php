@@ -8,52 +8,7 @@ require_once("inc/function.inc.php");
 
 require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
-$page = $_GET["page"];
-// echo var_dump($page);
-$categories = array(
-    "homme" => array(
-        "showcase" => "assets/img/category/01-homme.jpg",
-        "subcat" => array(
-            "jean" => "assets/img/category/jean.jpg",
-            "T-shirt" => "assets/img/category/t-shirt.jpg",
-            "Sneakers" => "assets/img/category/sneakers.jpg",
-            "Accessoires" => "assets/img/category/accessoires.jpg"
-        )
-    ),
-    "femme" => array(
-        "showcase" => "assets/img/category/01-femme.jpg",
-        "subcat" => array(
-            "jean" => "assets/img/category/jean.jpg",
-            "T-shirt" => "assets/img/category/t-shirt-femme.jpg",
-            "Sneakers" => "assets/img/category/sneakers-femme.jpg",
-            "Accessoires" => "assets/img/category/accessoires-femme.jpg"
-        )
-    ),
-    "sneakers" => array(
-        "showcase" => "assets/img/category/img-sneakers.jpg",
-        "subcat" => array(
-            "mocasin" => "assets/img/category/jean.jpg",
-            "talons" => "assets/img/category/t-shirt.jpg",
-            "bottes" => "assets/img/category/sneakers.jpg",
-            "espadrilles" => "assets/img/category/accessoires.jpg"
-        )
-    ),
-    "accessoires" => array(
-        "showcase" => "assets/img/category/img-accessoires.jpg",
-        "subcat" => array(
-            "ceintures" => "assets/img/category/ceinture.jpg",
-            "sac" => "assets/img/category/sac.jpg",
-            "lunettes" => "assets/img/category/lunette-accessoires.jpg",
-            "casquette" => "assets/img/category/img-accessoires.jpg"
-        )
-    )
-    );
-if(isset($page)) {
-    $list = $categories[$page]; //$categories["homme"];
-    $showcase = $categories[$page]["showcase"];
-    $subcat = $categories[$page]["subcat"];
-    // echo var_dump($list);
-}
+require_once("inc/category.inc.php");
 
 
 ?>
@@ -98,38 +53,38 @@ if(isset($page)) {
     </section>
 
     <section>
-        <div class="title-nouveauté">
+        <div class="title-nouveaute">
             <h2>Nouveauté</h2>
         </div>
         
         <div class="whatsnew">
             <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/pantalon.webp" alt="Article01">
-                <div class="type-nouveauté">
-                    <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
+                <div class="type-nouveaute">
+                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
                 <a href="#" class="price-nouveauté">269.99€</a>
             </div>
             <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/casquette.webp" alt="Article02">
-                <div class="type-nouveauté">
-                    <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
+                <div class="type-nouveaute">
+                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
-                <a href="#" class="price-nouveauté">269.99€</a>
+                <a href="#" class="price-nouveaute">269.99€</a>
             </div>
             <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/lunette.webp" alt="Article03">
-                <div class="type-nouveauté">
-                    <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
+                <div class="type-nouveaute">
+                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
-                <a href="#" class="price-nouveauté">269.99€</a>
+                <a href="#" class="price-nouveaute">269.99€</a>
             </div>
             <div class="nouveaute-product">
                 <img src="assets/img/nouveautes/pull.jpg" alt="Article04">
-                <div class="type-nouveauté">
-                    <a href="#" class="btn-nouveauté">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
+                <div class="type-nouveaute">
+                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
                 </div>
-                <a href="#" class="price-nouveauté">269.99€</a>
+                <a href="#" class="price-nouveaute">269.99€</a>
             </div>
         </div>  
     <section>

@@ -8,6 +8,7 @@ echo '<link href="assets/css/compte.css" rel="stylesheet" type="text/css">';
 
 require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
+require_once("inc/category.inc.php");
 
 ?>
 
