@@ -1,7 +1,7 @@
 .article-container{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 1fr;
+    margin: 50px 20px 50px 20px;
 }
 .image-article{
     display: grid;
@@ -37,6 +37,7 @@
     height: 300px;
     width: 100%;
     display: grid;
+    margin-top: 20px;
     
 }
 .description-article p{

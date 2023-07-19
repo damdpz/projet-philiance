@@ -22,7 +22,7 @@ require_once("inc/category.inc.php");
                     <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pull.jpg" alt="pull">
                 </div>
                 <div class="two">
-                    <image src="../PROJET_PHILIANCE/assets/img/category/" alt="pull">
+                    <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pull.jpg" alt="pull">
                 </div>
             </div>
             
