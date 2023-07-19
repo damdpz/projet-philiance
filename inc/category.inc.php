@@ -40,7 +40,8 @@ $categories = array(
         )
     )
     );
-if(isset($page)) {
+
+if(isset($_GET["page"])) {
     $page = $_GET["page"];
     $list = $categories[$page]; //$categories["homme"];
     $showcase = $categories[$page]["showcase"];

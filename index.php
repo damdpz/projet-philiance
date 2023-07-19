@@ -16,7 +16,7 @@ require_once("inc/category.inc.php");
 
 <main>
     <div class="carroussel">
-        <img src="assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01"/>
+        <img src="assets/img/carroussel/home.jpg" alt="photo_01"/>
         <h2>La mode passe,<br> le style reste.</h2>
     </div>
 
