@@ -27,9 +27,9 @@ require_once("inc/category.inc.php");
         <div class="category">
             <?php foreach ($subcat as $key => $value): ?>
             <div class="category-product">
-                <img src="<?php echo $value ?>" alt="<?php echo $key ?>">
+                <img src="<?php echo $value['showcase_img'] ?>" alt="<?php echo $value['nom'] ?>">
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn"><?php echo $key ?></a>
+                    <a href="subcategory.php?id=<?php echo $value['id'] ?>" class="category-btn"><?php echo $value['nom'] ?></a>
                 </div>
             </div>
             <?php endforeach ?>

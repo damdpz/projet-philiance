@@ -12,17 +12,15 @@ require_once("inc/category.inc.php");
 
 ?>
 
-
-
 <main>
     <section>
         <div class="article-container">
             <div class="image-article">
                 <div class="one">
-                    <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pull.jpg" alt="pull">
+                    <image src="assets/img/nouveautes/pull.jpg" alt="pull">
                 </div>
                 <div class="two">
-                    <image src="../PROJET_PHILIANCE/assets/img/category/pullover-hand.webp" alt="pull">
+                    <image src="assets/img/category/pullover-hand.webp" alt="pull">
                 </div>
             </div>
 
@@ -59,7 +57,7 @@ require_once("inc/category.inc.php");
 
         <div class="selection">
             <div class="selection-article">
-                <image src="../PROJET_PHILIANCE/assets/img/nouveautes/pantalon.webp" alt="pantalon">
+                <image src="assets/img/nouveautes/pantalon.webp" alt="pantalon">
                     <div class="titre-selection">
                         <a href="#" class="btn-selection">CARHARTT WIP NOLAN PANT
                         </a>
@@ -68,7 +66,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="selection-article">
-                <image src="../PROJET_PHILIANCE/assets/img/nouveautes/veste.webp" alt="veste">
+                <image src="assets/img/nouveautes/veste.webp" alt="veste">
                     <div class="titre-selection">
                         <a href="#" class="btn-selection">X WALES BONNER KNIT TRACK</a>
                     </div>
@@ -76,7 +74,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="selection-article">
-                <image src="../PROJET_PHILIANCE/assets/img/nouveautes/sneakers.jpg" alt="sneakers">
+                <image src="assets/img/nouveautes/sneakers.jpg" alt="sneakers">
                     <div class="titre-selection">
                         <a href="#" class="btn-selection">Nike WMNS DUNK LOW LX</a>
                     </div>
