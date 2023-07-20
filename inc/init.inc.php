@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 
     // Connexion à la BDD
 function get_connection() {
-    $pdo = new PDO("mysql:host=localhost:8889;dbname=daikles", 'root', 'root');
+    $pdo = new PDO("mysql:host=localhost;dbname=daikles", 'root', 'root');
     $pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
     return $pdo;
 }
