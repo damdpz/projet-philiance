@@ -33,7 +33,7 @@ $connection = DriverManager::getConnection([
     'user' => 'root',
     'password'=> 'root',
     'dbname' => 'daikles',
-    'host'=> "localhost:3306",
+    'host'=> "localhost:8889",
 ], $config);
 
 // obtaining the entity manager
