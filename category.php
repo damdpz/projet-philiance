@@ -15,7 +15,7 @@ require_once("inc/category.inc.php");
 <main>
 
 
-<div class="carroussel">
+    <div class="carroussel">
         <img src="<?php echo $showcase ?>" alt="photo_01">
     </div>
 
@@ -23,98 +23,101 @@ require_once("inc/category.inc.php");
         <div class="title-category">
             <h2>Catégories</h2>
         </div>
-        
+
         <div class="category">
-            <?php foreach ($subcat as $key => $value): ?>
-            <div class="category-product">
-                <img src="<?php echo $value['showcase_img'] ?>" alt="<?php echo $value['nom'] ?>">
-                <div class="overlay-btn">
-                    <a href="subcategory.php?id=<?php echo $value['id'] ?>" class="category-btn"><?php echo $value['nom'] ?></a>
+            <?php foreach ($subcat as $key => $value) : ?>
+                <div class="category-product">
+                    <img src="<?php echo $value['showcase_img'] ?>" alt="<?php echo $value['nom'] ?>">
+                    <div class="overlay-btn">
+                        <a href="subcategory.php?id=<?php echo $value['id'] ?>" class="category-btn"><?php echo $value['nom'] ?></a>
+                    </div>
                 </div>
-            </div>
             <?php endforeach ?>
         </div>
     </section>
 
-    <section class="about-container">
-        <div class="grid-about">
-            <div class="grid-video">
-                <video src="assets/videos/videocategory.mp4" type="video.mp4" width="100%" autoplay="true" muted loop></video>
-            </div>
-            <div class="grid-text">
-                <div class="grid-text-content">
-                    <h2>Summer 2023</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vero laudantium adipisci voluptatibus in dolorem expedita neque, suscipit repellendus illo, perferendis qui. Blanditiis expedita vel doloribus aliquam temporibus, provident qui doloremque voluptatum impedit consequatur. Debitis pariatur cum nam saepe laboriosam. Repudiandae autem ad debitis eos quisquam maiores quibusdam placeat error.</p>
-                </div>
-                <a href="#" class="btn-about">Bouton</a>
-            </div>
-        </div>
-    </section>
 
     <section>
         <div class="title-nouveaute">
             <h2>Nouveauté</h2>
         </div>
-        
+
         <div class="whatsnew">
             <div class="nouveaute-product">
-                <img src="assets/img/nouveautes/pantalon.webp" alt="Article01">
-                <div class="type-nouveaute">
-                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-nouveauté">269.99€</a>
+                <a href="#">
+                    <img src="assets/img/produits/homme/sneakers/Luka 2-homme-129.99-01.jpg" alt="sneaker" />
+                    <div class="type-nouveaute">
+                        <h4>LUKA 2</h4>
+                        <p>129.99€</p>
+                </a>
             </div>
-            <div class="nouveaute-product">
-                <img src="assets/img/nouveautes/casquette.webp" alt="Article02">
-                <div class="type-nouveaute">
-                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-nouveaute">269.99€</a>
-            </div>
-            <div class="nouveaute-product">
-                <img src="assets/img/nouveautes/lunette.webp" alt="Article03">
-                <div class="type-nouveaute">
-                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-nouveaute">269.99€</a>
-            </div>
-            <div class="nouveaute-product">
-                <img src="assets/img/nouveautes/pull.jpg" alt="Article04">
-                <div class="type-nouveaute">
-                    <a href="#" class="btn-nouveaute">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-nouveaute">269.99€</a>
-            </div>
-        </div>  
-    <section>
-        <div class="notre-selection">
-            <h2>Notre Selection</h2>
         </div>
-        
-        <div class="notre-selection">
-            <div class="notre-selection-product">
-                <img src="assets/img/category/02-t-shirt.jpg" alt="Article05">
-                <div class="type-notre-selection">
-                    <a href="#" class="btn-notre-selection">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-notre-selection">269.99€</a>
-            </div>     
-            <div class="notre-selection-product">
-                <img src="assets/img/best-seller/produit-02/02.webp" alt="Article06">
-                <div class="type-notre-selection">
-                    <a href="#" class="btn-notre-selection">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-notre-selection">269.99€</a>
-            </div> 
-            <div class="notre-selection-product">
-                <img src="assets/img/best-seller/produit-03/02.webp" alt="Article07">
-                <div class="type-notre-selection">
-                    <a href="#" class="btn-notre-selection">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-notre-selection">269.99€</a>
-                </div>
-            </div>    
+
+
+        <div class="nouveaute-product">
+            <a href="#">
+                <img src="assets/img/produits/accessoires/casquette/NIKEHERITAGE86 FUTURA WASHED CAP-casquette-22.99-01.jpg" alt="casquette" />
+                <div class="type-nouveaute">
+                    <h4>HERITAGE86 FUTURA WASHED CAP</h4>
+                    <p>22.99€</p>
+            </a>
         </div>
+        </div>
+        <div class="nouveaute-product">
+            <a href="#">
+                <img src="assets/img/produits/accessoires/lunette/OAKLEYHSTN-lunette-275.99-01.jpg" alt="lunette" />
+                <div class="type-nouveaute">
+                    <h4>HSTN</h4>
+                    <p>275.99€</p>
+            </a>
+        </div>
+        </div>
+        <div class="nouveaute-product">
+            <a href="#">
+                <img src="assets/img/produits/femme/jean/Levi's® 501® CROP-femme-59.99-01.jpg" alt="jean" />
+                <div class="type-nouveaute">
+                    <h4>501® CROP</h4>
+                    <p>49.99€</p>
+            </a>
+        </div>
+        </div>
+
+        </div>
+        <section>
+            <div class="notre-selection">
+                <h2>Notre Selection</h2>
+            </div>
+
+            <div class="notre-selection">
+                <div class="notre-selection-product">
+                    <a href="#">
+                        <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
+                        <div class="type-notre-selection">
+                            <h4>A.P.C.TEE WILLY</h4>
+                            <p>119.99€</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="notre-selection-product">
+                    <a href="#">
+                        <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
+                        <div class="type-notre-selection">
+                            <h4>NIKE AIR MAX PLUS</h4>
+                            <p>189.99€</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="notre-selection-product">
+                    <a href="#">
+                        <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
+                        <div class="type-notre-selection">
+                            <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>
+                            <p>49.99€</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
 </main>
 
 <?php

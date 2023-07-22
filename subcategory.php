@@ -23,8 +23,24 @@ if (isset($_GET['id'])) {
         $query->bindParam('article_id', $article_id, PDO::PARAM_INT);
         $query->execute();
         $image = $query->fetch(PDO::FETCH_ASSOC);
-        $articles[$key]['img_source'] = $image['source'];
-        $articles[$key]['img_alt'] = $image['name'];
+        if(isset($image['source'])) {
+            if(!is_null($image['source'])) {
+                $articles[$key]['img_source'] = $image['source'];
+            } else {
+                $articles[$key]['img_source'] = "";
+            }
+        } else {
+            $articles[$key]['img_source'] = "";
+        }
+        if(isset($image['name'])) {
+            if(!is_null($image['source'])) {
+                $articles[$key]['img_alt'] = $image['name'];
+            } else {
+                $articles[$key]['img_alt'] = "";
+            }
+        } else {
+            $articles[$key]['img_alt'] = "";
+        }
     }
 
 }
