@@ -25,7 +25,6 @@ if (isset($_GET['id'])) {
     $query->bindParam('article_id', $article_id, PDO::PARAM_INT);
     $query->execute();
     $images = $query->fetchAll(PDO::FETCH_ASSOC);
-
 }
 
 ?>
@@ -38,7 +37,7 @@ if (isset($_GET['id'])) {
                     <image src="<?php echo $images[0]['source'] ?>" alt="<?php echo $images[0]['name'] ?>">
                 </div>
                 <div class="two">
-                <image src="<?php echo $images[1]['source'] ?>" alt="<?php echo $images[1]['name'] ?>">
+                    <image src="<?php echo $images[1]['source'] ?>" alt="<?php echo $images[1]['name'] ?>">
                 </div>
             </div>
 
@@ -47,7 +46,7 @@ if (isset($_GET['id'])) {
                     <h3><?php echo $article['description'] ?></h3>
                 </div>
                 <div class="prix-article">
-                <h3><?php echo $article['price'] ?>€</h3>
+                    <h3><?php echo $article['price'] ?>€</h3>
                 </div>
                 <p> <?php echo $article['name'] ?></p>
 
@@ -74,29 +73,36 @@ if (isset($_GET['id'])) {
 
         <div class="selection">
             <div class="selection-article">
-                <image src="assets/img/nouveautes/pantalon.webp" alt="pantalon">
+                <a href="#">
+                    <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
                     <div class="titre-selection">
-                        <a href="#" class="btn-selection">CARHARTT WIP NOLAN PANT
-                        </a>
+                        <h4>A.P.C.TEE WILLY</h4>
+                        <p>119.99€</p>
                     </div>
-                    <a href="#" class="btn-price-selection">89.99€</a>
+                </a>
+
             </div>
 
             <div class="selection-article">
-                <image src="assets/img/nouveautes/veste.webp" alt="veste">
+                <a href="#">
+                    <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
                     <div class="titre-selection">
-                        <a href="#" class="btn-selection">X WALES BONNER KNIT TRACK</a>
+                        <h4>NIKE AIR MAX PLUS</h4>
+                        <p>189.99€</p>
                     </div>
-                    <a href="#" class="btn-price-selection">279.99€</a>
+                </a>
             </div>
 
             <div class="selection-article">
-                <image src="assets/img/nouveautes/sneakers.jpg" alt="sneakers">
+                <a href="#">
+                    <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
                     <div class="titre-selection">
-                        <a href="#" class="btn-selection">Nike WMNS DUNK LOW LX</a>
+                        <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>
+                        <p>49.99€</p>
                     </div>
-                    <a href="#" class="btn-price-selection">119.99€</a>
+                </a>
             </div>
+        </div>
     </section>
 </main>
 

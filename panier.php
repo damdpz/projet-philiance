@@ -14,61 +14,6 @@ require_once("inc/category.inc.php");
 
 
 <main>
-
-<!DOCTYPE html>
-<html>
-<head>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        
-        h1 {
-            text-align: center;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        
-        thead {
-            background-color: #333;
-            color: #fff;
-        }
-        
-        tbody tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        
-        tfoot {
-            font-weight: bold;
-        }
-        
-        button {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-        
-        button:hover {
-            background-color: #555;
-        }
-    </style>
-</head>
-<body>
     
     <table>
         <thead>
@@ -102,11 +47,6 @@ require_once("inc/category.inc.php");
     </table>
     
     <button type="button">Passer à la caisse</button>
-</body>
-</html>
-
-
-
 
 </main>
 

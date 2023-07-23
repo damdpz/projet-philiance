@@ -113,6 +113,15 @@
     font-size: 0,8rem;
     font-weight: bold;
 }
+.titre-selection h4{
+    font-weight: bold;
+    margin: 0;
+}
+
+.titre-selection p{
+    font-weight: lighter;
+    margin: 0;
+}
 
 
 

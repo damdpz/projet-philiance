@@ -84,7 +84,7 @@ require_once("inc/category.inc.php");
 
         </div>
         <section>
-            <div class="notre-selection">
+            <div class="title-selection">
                 <h2>Notre Selection</h2>
             </div>
 
