@@ -13,12 +13,6 @@ require_once("inc/category.inc.php");
 ?>
 
 
-<main>
-
-
-
-
-</main>
 
 <?php
 require_once("inc/footer.inc.php");
