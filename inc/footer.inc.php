@@ -25,17 +25,17 @@
     <div class="nav-category">
         <h3>Catégorie</h3>
         <ul>
-            <li><a href="article.php">Homme</a></li>
-            <li><a href="article.php">Femme</a></li>
-            <li><a href="article.php">Accessoires</a></li>
+            <li><a href="category.php?page=homme">Homme</a></li>
+            <li><a href="category.php?page=femme">Femme</a></li>
+            <li><a href="category.php?page=accessoires">Accessoires</a></li>
         </ul>
     </div>
 
     <div class="nav-condition">
         <ul>
-            <li><a href="homme.php">Mentions légales</a></li>
-            <li><a href="homme.php">Conditions</a></li>
-            <li><a href="homme.php">Politique de confidentialité</a></li>
+            <li><a href="mentions-legales.php">Mentions légales</a></li>
+            <li><a href="conditions.php">Conditions</a></li>
+            <li><a href="politiques-de-confidentialites.php">Politique de confidentialité</a></li>
         </ul>
     </div>
 
@@ -52,9 +52,9 @@
         <ul class="section">
             <h3>Catégorie</h3>
             <div class="reveal">
-                <li><a href="article.php">Homme</a></li>
-                <li><a href="article.php">Femme</a></li>
-                <li><a href="article.php">Accessoires</a></li>
+                <li><a href="category.php?page=homme">Homme</a></li>
+                <li><a href="category.php?page=femme">Femme</a></li>
+                <li><a href="category.php?page=accessoires">Accessoires</a></li>
             </div>
         </ul>
 
