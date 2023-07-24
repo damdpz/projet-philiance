@@ -1,6 +1,5 @@
 
   /* Styles pour le contenu du panier */
- 
   
   .cart-items {
     flex: 2;
@@ -66,11 +65,6 @@
     border: none;
     cursor: pointer;
   }
-  
-
-  
-  
-  
   
   
  

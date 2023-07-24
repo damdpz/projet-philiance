@@ -13,7 +13,7 @@ require_once("inc/category.inc.php");
 ?>
 
 <main>
-    <section class="cart-items">
+<section class="cart-items">
       <table>
         <tr>
           <th>Article</th>
