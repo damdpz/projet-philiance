@@ -44,7 +44,7 @@ require_once("inc/category.inc.php");
 
         <div class="whatsnew">
             <div class="nouveaute-product">
-                <a href="#">
+                <a href="article.php?id=7">
                     <img src="assets/img/produits/homme/sneakers/Luka 2-homme-129.99-01.jpg" alt="sneaker" />
                     <div class="type-nouveaute">
                         <h4>LUKA 2</h4>
@@ -55,7 +55,7 @@ require_once("inc/category.inc.php");
 
 
         <div class="nouveaute-product">
-            <a href="#">
+            <a href="article.php?id=54">
                 <img src="assets/img/produits/accessoires/casquette/NIKEHERITAGE86 FUTURA WASHED CAP-casquette-22.99-01.jpg" alt="casquette" />
                 <div class="type-nouveaute">
                     <h4>HERITAGE86 FUTURA WASHED CAP</h4>
@@ -64,7 +64,7 @@ require_once("inc/category.inc.php");
         </div>
         </div>
         <div class="nouveaute-product">
-            <a href="#">
+            <a href="article.php?id=48">
                 <img src="assets/img/produits/accessoires/lunette/OAKLEYHSTN-lunette-275.99-01.jpg" alt="lunette" />
                 <div class="type-nouveaute">
                     <h4>HSTN</h4>
@@ -73,7 +73,7 @@ require_once("inc/category.inc.php");
         </div>
         </div>
         <div class="nouveaute-product">
-            <a href="#">
+            <a href="article.php?id=27">
                 <img src="assets/img/produits/femme/jean/Levi's® 501® CROP-femme-59.99-01.jpg" alt="jean" />
                 <div class="type-nouveaute">
                     <h4>501® CROP</h4>
@@ -90,7 +90,7 @@ require_once("inc/category.inc.php");
 
             <div class="notre-selection">
                 <div class="notre-selection-product">
-                    <a href="#">
+                    <a href="article.php?id=19">
                         <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
                         <div class="type-notre-selection">
                             <h4>A.P.C.TEE WILLY</h4>
@@ -99,7 +99,7 @@ require_once("inc/category.inc.php");
                     </a>
                 </div>
                 <div class="notre-selection-product">
-                    <a href="#">
+                    <a href="article.php?id=4">
                         <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
                         <div class="type-notre-selection">
                             <h4>NIKE AIR MAX PLUS</h4>
@@ -108,7 +108,7 @@ require_once("inc/category.inc.php");
                     </a>
                 </div>
                 <div class="notre-selection-product">
-                    <a href="#">
+                    <a href="article.php?id=23">
                         <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
                         <div class="type-notre-selection">
                             <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>

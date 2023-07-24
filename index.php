@@ -129,7 +129,7 @@ require_once("inc/category.inc.php");
         </div>
         <div class="best-seller">
             <div class="best-seller-product">
-                <a href="#">
+                <a href="article.php?id=19">
                     <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
                     <h4>A.P.C.TEE WILLY</h4>
                     <p>119.99€</p>
@@ -137,7 +137,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="best-seller-product">
-                <a href="#">
+                <a href="article.php?id=4">
                     <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
                     <h4>NIKE AIR MAX PLUS</h4>
                     <p>189.99€</p>
@@ -146,7 +146,7 @@ require_once("inc/category.inc.php");
 
 
             <div class="best-seller-product">
-                <a href="#">
+                <a href="article.php?id=23">
                     <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
                     <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>
                     <p>49.99€</p>
@@ -154,7 +154,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="best-seller-product">
-                <a href="#">
+                <a href="article.php?id=43">
                     <img src="assets/img/produits/accessoires/lunette/CHIMI EYEWEAR01M ALMOST BLACK-lunette-139.99-01.jpg" alt="lunette" />
                     <h4>CHIMI EYEWEAR01M ALMOST BLACK</h4>
                     <p>139.99€</p>

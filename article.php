@@ -73,7 +73,7 @@ if (isset($_GET['id'])) {
 
         <div class="selection">
             <div class="selection-article">
-                <a href="#">
+                <a href="article.php?id=19">
                     <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
                     <div class="titre-selection">
                         <h4>A.P.C.TEE WILLY</h4>
@@ -84,7 +84,7 @@ if (isset($_GET['id'])) {
             </div>
 
             <div class="selection-article">
-                <a href="#">
+                <a href="article.php?id=4">
                     <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
                     <div class="titre-selection">
                         <h4>NIKE AIR MAX PLUS</h4>
@@ -94,7 +94,7 @@ if (isset($_GET['id'])) {
             </div>
 
             <div class="selection-article">
-                <a href="#">
+                <a href="article.php?id=23">
                     <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
                     <div class="titre-selection">
                         <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>
