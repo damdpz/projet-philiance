@@ -14,6 +14,18 @@ require_once("inc/category.inc.php");
 
 
 <main>
+    <div id="content">
+        <!-- tester si l'utilisateur est connecté -->
+        <?php
+        
+        if (isset($_SESSION['email'])) {
+            $user = $_SESSION['email'];
+            // afficher un message
+            echo "Bonjour $user, vous êtes connecté";
+        }
+        ?>
+
+    </div>
     <div class="carroussel">
         <img src="assets/img/carroussel/home.jpg" alt="photo_01" />
         <h2>La mode passe,<br> le style reste.</h2>

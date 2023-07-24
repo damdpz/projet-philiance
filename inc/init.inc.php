@@ -13,7 +13,7 @@ function get_connection() {
     return $pdo;
 }
     // Lancement de session utilisateur
-session_start();
+    session_start();
     // Initialisation de constantes 
 
     // Déclarations de certaines variables
