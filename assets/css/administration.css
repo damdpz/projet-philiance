@@ -1,0 +1,43 @@
+/* assets/css/administration.css */
+
+/* Style du tableau */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style des images dans le tableau */
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Style pour les boutons "En stock" et "En rupture de stock" */
+td:last-child {
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+td:last-child.stock {
+    background-color: #4CAF50; /* Vert pour "En stock" */
+}
+
+td:last-child.rupture {
+    background-color: #f44336; /* Rouge pour "En rupture de stock" */
+}
