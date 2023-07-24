@@ -133,6 +133,9 @@ nav ul li:hover:nth-child(5) a{
     margin-top: 100px;
     text-align: center;
 }
+.title-product a{
+    text-decoration: none;
+}
 .new-product{
     width: 100%;
     display: flex;
@@ -144,6 +147,9 @@ nav ul li:hover:nth-child(5) a{
 }
 .product img{
     width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -154,16 +160,18 @@ nav ul li:hover:nth-child(5) a{
     outline: none;
     border-bottom: 0px solid;
 }
-.type-product a{
-    font-weight: bolder;
+.detail-product h4{
     text-decoration: none;
     color: black;
+    margin: 0;
 }
-.price-product{
-    font-weight: bolder;
+.detail-product p{
     text-decoration: none;
     color: black;
+    margin: 0;
 }
+
+
 
 /* --------------- Catégories --------------------------*/
 .title-category{
@@ -248,99 +256,35 @@ nav ul li:hover:nth-child(5) a{
 .best-seller-product{
     font-size: 0.8rem;
     width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .best-seller-product img{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
-.type-best-seller{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.price-best-seller{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.best-seller-product a{
+.best-seller-product h4{
     text-decoration: none;
     color: black;
+    margin: 0;
 }
-
-/*------------------ About ---------------------------*/
-.about-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.about-container p{
-    width: 80%;
-}
-.about-container h2{
-    margin-top: 0;
-
-}
-.grid-about{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 0px 0px 0px;
-    gap: 50px;
-}
-.grid-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-}
-.grid-video video{
-    width: 100%;
-    border-radius: 10px;
-}
-.grid-text{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-}
-.grid-text-content{
-    margin-right: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.btn-about{
-    padding: 10px 40px 10px 40px;
-    color: white;
-    background-color: #000000;
-    border-radius: 20px;
+.best-seller-product p{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    font-weight: bold;
-    width: 80px;
-    text-align: center;
-    border:solid 2px black;
-    
-}
-.btn-about:hover{
-    padding: 10px 40px 10px 40px;
     color: black;
-    background-color: white;
-    border-radius: 20px;
-    border: solid 2px black;
-    font-weight: bold;
+    margin: 0;
 }
 
-/*---------------------------------------------*/
+/*--------------- FOOTER ----------------------------*/
 footer{
     background-color: #e9e9e9;
     margin-top: 50px;
     padding:30px 20px 20px 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 50px;
+    row-gap: 20px;
+    border-bottom: 2px rgba(125, 125, 125, 0.3);
 }
 footer h3{
     margin-top: 0;
@@ -399,7 +343,7 @@ footer h3{
 
 /*------ Navigation footer --------------- */
 .nav-footer{
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-row-start: 1;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -625,8 +569,6 @@ footer h3{
         text-decoration: none;
         color: #000000;
     }
-
-
 
     .accordion ul li.unrolled{
         display: block;

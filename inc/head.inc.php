@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/category.css">
     <link rel="stylesheet" href="assets/css/compte.css">
     <link rel="stylesheet" href="assets/css/panier.css">
+    <link rel="stylesheet" href="assets/css/subcategory.css">
     <link rel="shortcut icon" href="assets/img/logo/LOGO_DAIKLES.jpg">
     <script defer src="assets/js/index.js"></script>
     <title>DAIKLES</title>

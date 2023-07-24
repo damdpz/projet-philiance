@@ -1,0 +1,30 @@
+.container-subcat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-subcat h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subcat{
+    width: 25%;
+    margin: 0 10px 40px 10px;
+}
+.subcat img{
+    width: 100%;
+    border-radius: 20px;
+}
+.content-subcat a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+}
+.content-subcat p{
+    margin: 0;
+}
