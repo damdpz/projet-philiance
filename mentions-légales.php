@@ -14,7 +14,7 @@ require_once("inc/category.inc.php");
 
 <main>
 
-    <section>
+<section>
         <h2>Informations légales</h2>
         <p>Nom de l'entreprise : [Nom de l'entreprise]</p>
         <p>Statut juridique : [Statut juridique de l'entreprise]</p>

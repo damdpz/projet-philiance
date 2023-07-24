@@ -14,7 +14,7 @@ require_once("inc/category.inc.php");
 
 <main>
 
-    <section>
+<section>
         <h2>Collecte des informations</h2>
         <p>Nous collectons certaines informations personnelles lorsque vous utilisez notre site web [ou notre application]. Ces informations peuvent inclure :</p>
         <ul>
@@ -67,6 +67,7 @@ require_once("inc/category.inc.php");
         <p>Vous avez le droit d'accéder, de rectifier, de supprimer ou de limiter l'utilisation de vos données personnelles. Vous pouvez également vous opposer au traitement de vos données à certaines fins. Pour exercer ces droits, veuillez nous contacter à [adresse e-mail de contact].</p>
     </section>
 
+    
 </main>
 
 

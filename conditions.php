@@ -14,7 +14,7 @@ require_once("inc/category.inc.php");
 
 <main>
 
-    <section>
+<section>
         <h2>Acceptation des conditions</h2>
         <p>En accédant et en utilisant ce site web, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser ce site.</p>
     </section>
