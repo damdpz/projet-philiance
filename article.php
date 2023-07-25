@@ -58,7 +58,7 @@ if (isset($_GET['id'])) {
                     <br>
                     Matériel : 100% coton
                 </p>
-                <a href="panier.php" class="btn-article">Ajouter au panier</a>
+                <a href="panier.php?id=<?=$article['id']; ?>" class="btn-article">Ajouter au panier</a>
             </div>
         </div>
 
