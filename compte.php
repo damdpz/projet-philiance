@@ -10,9 +10,9 @@ require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
 require_once("inc/category.inc.php");
 
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
+// echo "<pre>";
+// print_r($_POST);
+// echo "</pre>";
 
 $message = "";
 $email = "";
@@ -51,7 +51,7 @@ if (isset( $_POST["email"])) {
  <form class="connexion">
     <h1>Mon compte</h1>
 
-            <div class="champ">
+        <div class="champ">
 
         <input type="email" placeholder="Email"> <br>
         <label for="email"></label>
@@ -62,18 +62,20 @@ if (isset( $_POST["email"])) {
         
         <a href="#" class="pw">Mot de passe oublié</a><br>
 
-        <input type="button" value="Connexion" style="
+        <input class="btn-connexion" type="submit" value="Connexion" style="
          margin-top: 20px;"> 
     </div>
-
-   
-        <div class="champ1">
-           <h3>Pas de compte ?</h3>
-        
-           <a href="inscription.php" class="compte"><input type="button" value="Créer un compte"></a>
-        </div>
     </form>
- </form>
+   
+        <div class="new-client">
+            <h4>Nouveau chez Daikles ?</h4>
+        </div>
+        <div class="champ1">
+           <a href="inscription.php" class="compte">
+                <input type="button" class="btn-create-compte" value="Créer un compte">
+            </a>
+        </div>
+
        
     </div>
 
