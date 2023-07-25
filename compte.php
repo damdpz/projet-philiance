@@ -46,36 +46,33 @@ if (isset( $_POST["email"])) {
 
 <main>
     <div class="form1">
-        <img src="assets/img/image-compte/coucher-de-soleil.jpg" alt="background">
+
         <!--FORMULAIRE-->
- <form action="traitement_connexion.php" method="POST" class="connexion">
+ <form class="connexion">
     <h1>Mon compte</h1>
 
-    <div class="champ">
+            <div class="champ">
 
-        <?php if(isset($_GET['error']) && $_GET['error'] == 2) { ?>
-        <span style="color:red">ERREUR authentification</span><br>
-        <?php } ?>
-
-        <input type="email" placeholder="Email" name="email" required> <br>
+        <input type="email" placeholder="Email"> <br>
         <label for="email"></label>
 
 
-        <input type="password" placeholder="Mot de passe" name="mdp"> <br>
+        <input type="password" placeholder="Mot de passe"> <br>
         <label for="password"></label>
         
         <a href="#" class="pw">Mot de passe oublié</a><br>
 
-        <input type="submit" value="Connexion" style="
-         margin-top: 20px;">
+        <input type="button" value="Connexion" style="
+         margin-top: 20px;"> 
     </div>
-</form>
+
    
         <div class="champ1">
            <h3>Pas de compte ?</h3>
         
-           <a href="inscription.php" class="compte"><input type="submit" value="Créer un compte"></a>
+           <a href="inscription.php" class="compte"><input type="button" value="Créer un compte"></a>
         </div>
+    </form>
  </form>
        
     </div>
@@ -85,4 +82,3 @@ if (isset( $_POST["email"])) {
 
 <?php
 require_once("inc/footer.inc.php");
-?>

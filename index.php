@@ -1,4 +1,3 @@
-
 <?php
 require_once("inc/init.inc.php");
 require_once("inc/function.inc.php");
@@ -15,8 +14,20 @@ require_once("inc/category.inc.php");
 
 
 <main>
+    <div id="content">
+        <!-- tester si l'utilisateur est connecté -->
+        <?php
+        
+        if (isset($_SESSION['email'])) {
+            $user = $_SESSION['email'];
+            // afficher un message
+            echo "Bonjour $user, vous êtes connecté";
+        }
+        ?>
+
+    </div>
     <div class="carroussel">
-        <img src="assets/img/carroussel/pexels-displaced-by-design-9898374.jpg" alt="photo_01"/>
+        <img src="assets/img/carroussel/home.jpg" alt="photo_01" />
         <h2>La mode passe,<br> le style reste.</h2>
     </div>
 
@@ -26,58 +37,64 @@ require_once("inc/category.inc.php");
         </div>
         <div class="new-product">
             <div class="product">
-                <img src="assets/img/nouveautes/sneakers.jpg" alt="sneakers"/>
-                <div class="detail-product">
-                    <div class="type-product">
-                        <a href="#">WMNS DUNK LOW LX</a>
-                        <div>Nike</div>
+                <a href="article.php?id=7">
+                    <img src="assets/img/produits/homme/sneakers/Luka 2-homme-129.99-01.jpg" alt="sneaker" />
+                    <div class="detail-product">
+                        <h4>LUKA 2</h4>
+                        <p>Jordan</p>
+                        <p>129.99€</p>
                     </div>
-                    <a href="#" class="price-product">109.99€</a>
-                </div>
+                </a>
+            </div>
+
+            <div class="product">
+                <a href="article.php?id=54">
+                    <img src="assets/img/produits/accessoires/casquette/NIKEHERITAGE86 FUTURA WASHED CAP-casquette-22.99-01.jpg" alt="casquette" />
+                    <div class="detail-product">
+                        <h4>HERITAGE86 FUTURA WASHED CAP</h4>
+                        <p>Nike</p>
+                        <p>22.99€</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="product">
+                <a href="article.php?id=48">
+                    <img src="assets/img/produits/accessoires/lunette/OAKLEYHSTN-lunette-275.99-01.jpg" alt="lunette" />
+                    <div class="detail-product">
+                        <h4>HSTN</h4>
+                        <p>Oakley</p>
+                        <p>275.99€</p>
+                    </div>
+                </a>
+
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/casquette.webp" alt="casquette"/>
-                <div class="detail-product">
-                    <div class="type-product">
-                        <a href="#">HERITAGE86 FUTURA WASHED CAP</a>
-                        <div>Nike</div>
+                <a href="article.php?id=27">
+                    <img src="assets/img/produits/femme/jean/Levi's® 501® CROP-femme-59.99-01.jpg" alt="jean" />
+                    <div class="detail-product">
+                        <h4>501® CROP</h4>
+                        <p>Levi's</p>
+                        <p>49.99€</p>
                     </div>
-                    <a href="#" class="price-product">22.99€</a>
-                </div>
+                </a>
+
             </div>
             <div class="product">
-                <img src="assets/img/nouveautes/lunette.webp" alt="casquette"/>
-                <div class="detail-product">
-                    <div class="type-product">
-                        <a href="#">03.2 BLACK SUNGLASSES</a>
-                        <div>Chimi Eyewear</div>
+                <a href="article.php?id=23">
+                    <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="pantalon" />
+                    <div class="detail-product">
+                        <h4>SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT</h4>
+                        <p>Nike</p>
+                        <p>269.99€</p>
                     </div>
-                    <a href="#" class="price-product">79.99€</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="assets/img/nouveautes/veste.webp" alt="veste"/>
-                <div class="detail-product">
-                    <div class="type-product">
-                        <a href="#">X WALES BONNER KNIT TRACK TOP</a>
-                        <div>Adidas</div>
-                    </div>
-                    <a href="#" class="price-product">279.99€</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="assets/img/nouveautes/pantalon.webp" alt="pantalon"/>
-                <div class="detail-product">
-                    <div class="type-product">
-                        <a href="#">SPRINGDALE RELAXED</a>
-                        <div>Closed</div>
-                    </div>
-                    <a href="#" class="price-product">269.99€</a>
-                </div>
+                </a>
+
             </div>
 
         </div>
-        </div>
+
     </section>
 
     <section>
@@ -86,21 +103,21 @@ require_once("inc/category.inc.php");
         </div>
         <div class="category">
             <div class="category-product">
-                <img src="assets/img/trois-blocs/vetement_03.jpg" alt="photo_vêtement"/>
+                <img src="assets/img/trois-blocs/homme.jpg" alt="photo_vêtement" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Vêtements</a>
+                    <a href="category.php?page=homme" class="category-btn">Homme</a>
                 </div>
             </div>
             <div class="category-product">
-                <img src="assets/img/trois-blocs/sneakers_01.jpg" alt="photo_sneakers"/>
+                <img src="assets/img/trois-blocs/femme.jpg" alt="photo_sneakers" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Sneakers</a>
+                    <a href="category.php?page=femme" class="category-btn">Femme</a>
                 </div>
             </div>
             <div class="category-product">
-                <img src="assets/img/trois-blocs/accessoire_01.jpg" alt="photo_accessoires"/>
+                <img src="assets/img/trois-blocs/accessoires.jpg" alt="photo_accessoires" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Accessoires</a>
+                    <a href="category.php?page=accessoires" class="category-btn">Accessoires</a>
                 </div>
             </div>
         </div>
@@ -112,48 +129,38 @@ require_once("inc/category.inc.php");
         </div>
         <div class="best-seller">
             <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-01/01.webp" alt="Article01"/>
-                <div class="type-best-seller">
-                    <a href="#" class="btn-best-seller">NIKEMLB TEXAS RANGERS OFFICIAL REPLICA JERSEY CITY CONNECT</a>
-                </div>
-                <a href="#" class="price-best-seller">269.99€</a>
+                <a href="article.php?id=19">
+                    <img src="assets/img/produits/homme/t-shirt/A.P.C.TEE WILLY-homme-119.99-02.jpg" alt="t-shirt">
+                    <h4>A.P.C.TEE WILLY</h4>
+                    <p>119.99€</p>
+                </a>
             </div>
-            <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-02/01.webp" alt="Article02"/>
-                <div class="type-best-seller">
-                    <a href="#" class="btn-best-seller">NIKEAIR VAPORMAX 2023 FK</a>
-                </div>
-                <a href="#" class="price-best-seller">269.99€</a>
-            </div>
-            <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-03/01.webp" alt="Article03"/>
-                <div class="type-best-seller">
-                    <a href="#" class="btn-product">NIKESPORTSWEAR TEE</a>
-                </div>
-                <a href="#" class="price-best-seller">269.99€</a>
-            </div>
-            <div class="best-seller-product">
-                <img src="assets/img/best-seller/produit-04/01.webp" alt="Article04"/>
-                <div class="type-best-seller">
-                    <a href="#" class="btn-best-seller">CHIMI EYEWEAR04 LIGHT GREEN SUNGLASSES</a>
-                </div>
-                <a href="#" class="price-best-seller">269.99€</a>
-            </div>
-        </div>
-    </section>
 
-    <section class="about-container">
-        <div class="grid-about">
-            <div class="grid-video">
-                <video src="assets/videos/carroussel.mp4" type="video.mp4" width="100%" autoplay="true" muted loop></video>
+            <div class="best-seller-product">
+                <a href="article.php?id=4">
+                    <img src="assets/img/produits/femme/sneakers/Nike Air Max Plus-femme-189.99-01.jpg" alt="sneaker" />
+                    <h4>NIKE AIR MAX PLUS</h4>
+                    <p>189.99€</p>
+                </a>
             </div>
-            <div class="grid-text">
-                <div class="grid-text-content">
-                    <h2>Summer 2023</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vero laudantium adipisci voluptatibus in dolorem expedita neque, suscipit repellendus illo, perferendis qui. </p>
-                </div>
-                <a href="#" class="btn-about">Bouton</a>
+
+
+            <div class="best-seller-product">
+                <a href="article.php?id=23">
+                    <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="t-shirt" />
+                    <h4>NIKE SHORT SLEEVE HEAVYWEIGHT TOP</h4>
+                    <p>49.99€</p>
+                </a>
             </div>
+
+            <div class="best-seller-product">
+                <a href="article.php?id=43">
+                    <img src="assets/img/produits/accessoires/lunette/CHIMI EYEWEAR01M ALMOST BLACK-lunette-139.99-01.jpg" alt="lunette" />
+                    <h4>CHIMI EYEWEAR01M ALMOST BLACK</h4>
+                    <p>139.99€</p>
+                </a>
+            </div>
+
         </div>
     </section>
 

@@ -18,7 +18,6 @@
         <ul class="nav">
             <li><a href="category.php?page=homme">Homme</a></li>
             <li><a href="category.php?page=femme">Femme</a></li>
-            <li><a href="category.php?page=sneakers">Sneakers</a></li>
             <li><a href="category.php?page=accessoires">Accessoires</a></li>
             <li><a href="compte.php">Mon compte</a></li>
         </ul>

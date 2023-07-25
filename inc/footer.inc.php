@@ -14,39 +14,28 @@
         <input class="btn-email" type="submit">
     </form>
 
-    <div class="nav-footer">
-        <h3>Footer</h3>
-        <ul>
-            <li><a href="article.php">Homme</a></li>
-            <li><a href="article.php">Femme</a></li>
-            <li><a href="article.php">Sneakers</a></li>
-            <li><a href="article.php">Accessoires</a></li>
-            <li><a href="compte.php">Mon compte</a></li>
-        </ul>
-    </div>
-
     <div class="nav-compte">
         <h3>Espace Compte</h3>
         <ul>
-            <li><a href="article.php">Connexion</a></li>
-            <li><a href="article.php">Créer un compte</a></li>
+            <li><a href="compte.php">Connexion</a></li>
+            <li><a href="inscription.php">Créer un compte</a></li>
         </ul>
     </div>
 
     <div class="nav-category">
         <h3>Catégorie</h3>
         <ul>
-            <li><a href="article.php">Vêtements</a></li>
-            <li><a href="article.php">Sneakers</a></li>
-            <li><a href="article.php">Accessoires</a></li>
+            <li><a href="category.php?page=homme">Homme</a></li>
+            <li><a href="category.php?page=femme">Femme</a></li>
+            <li><a href="category.php?page=accessoires">Accessoires</a></li>
         </ul>
     </div>
 
     <div class="nav-condition">
         <ul>
-            <li><a href="homme.php">Mentions légales</a></li>
-            <li><a href="homme.php">Conditions</a></li>
-            <li><a href="homme.php">Politique de confidentialité</a></li>
+            <li><a href="mentions-legales.php">Mentions légales</a></li>
+            <li><a href="conditions.php">Conditions</a></li>
+            <li><a href="politiques-de-confidentialites.php">Politique de confidentialité</a></li>
         </ul>
     </div>
 
@@ -55,28 +44,17 @@
         <ul class="section">
             <h3>Espace compte</h3>
             <div class="reveal">
-                <li><a href="article.php">Connexion</a></li>
-                <li><a href="article.php">Créer un compte</a></li>
+                <li><a href="compte.php">Connexion</a></li>
+                <li><a href="inscription.php">Créer un compte</a></li>
             </div>
         </ul>
         <hr>
         <ul class="section">
             <h3>Catégorie</h3>
             <div class="reveal">
-                <li><a href="article.php">Vêtements</a></li>
-                <li><a href="article.php">Sneakers</a></li>
-                <li><a href="article.php">Accessoires</a></li>
-            </div>
-        </ul>
-        <hr>
-        <ul class="section">
-            <h3>Footer</h3>
-            <div class="reveal">
-                <li><a href="article.php">Homme</a></li>
-                <li><a href="article.php">Femme</a></li>
-                <li><a href="article.php">Sneakers</a></li>
-                <li><a href="article.php">Accessoires</a></li>
-                <li><a href="article.php">Mon compte</a></li>
+                <li><a href="category.php?page=homme">Homme</a></li>
+                <li><a href="category.php?page=femme">Femme</a></li>
+                <li><a href="category.php?page=accessoires">Accessoires</a></li>
             </div>
         </ul>
 

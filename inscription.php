@@ -17,41 +17,37 @@ require_once("inc/category.inc.php");
 
 <main>
     <div class="form1">
-        <img src="assets/img/image-compte/foret-printemps.jpg" alt="background">
         <!--FORMULAIRE-->
- <form method="$_POST" class="connexion1">
-    <h1>Inscription</h1>
+        <form class="connexion1">
+            <h1>Inscription</h1>
 
-    <input type="text" placeholder="Nom" name="nom">
-    <label for="nom"></label>
+            <input type="text" placeholder="Nom" name="nom">
+            <label for="nom"></label>
 
-    <input type="text" placeholder="Prénom" name="prenom">
-    <label for="prenom"></label>
+            <input type="text" placeholder="Prénom" name="prenom">
+            <label for="prenom"></label>
 
-    <input type="date" placeholder="Date de naissance" name="date_de_naissance">
-    <label for="date_de_naissance"></label>
+            <input type="number" placeholder="Numéro de téléphone">
+            <label for="number"></label>
 
-    <input type="number" placeholder="Numéro de téléphone">
-    <label for="number"></label>
+            <input type="email" placeholder="Email" name="email">
+            <label for="email"></label>
 
-    <input type="email" placeholder="Email" name="email">
-    <label for="email"></label>
+            <input type="text" placeholder="Adresse" name="adresse">
+            <label for="adresse"></label>
 
-    <input type="text" placeholder="Adresse" name="adresse">
-    <label for="adresse"></label>
+            <input type="password" placeholder="Mot de passe" name="password">
+            <label for="password"></label>
 
-    <input type="password" placeholder="Mot de passe" name="password">
-    <label for="password"></label>
+            <input type="password" placeholder="Répéter le mot de passe" name="validation_password">
+            <label for="validation_password"></label>
 
-    <input type="password" placeholder="Répéter le mot de passe" name="validation_password">
-    <label for="validation_password"></label>
+            <a href="">
+            <input class="btn-valider" type="submit" value="Valider"></a>
 
 
-    <input type="submit" value="Valider">
+        </form>
 
-    
- </form>
-       
     </div>
 
 
