@@ -48,16 +48,20 @@ if (isset( $_POST["email"])) {
     <div class="form1">
 
         <!--FORMULAIRE-->
- <form class="connexion">
+ <form action="traitement_connexion.php" method="POST" class="connexion">
     <h1>Mon compte</h1>
 
         <div class="champ">
+        
+        <?php if(isset($_GET['error']) && $_GET['error'] == 2) { ?>
+        <span style="color:red">ERREUR authentification</span><br>
+        <?php } ?>
 
-        <input type="email" placeholder="Email"> <br>
+        <input type="email" placeholder="Email" name="email" required> <br>
         <label for="email"></label>
 
 
-        <input type="password" placeholder="Mot de passe"> <br>
+        <input type="password" placeholder="Mot de passe" name="mdp"> <br>
         <label for="password"></label>
         
         <a href="#" class="pw">Mot de passe oublié</a><br>

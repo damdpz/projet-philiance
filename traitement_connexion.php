@@ -44,6 +44,9 @@ if(isset($_POST['email']) && isset($_POST['mdp']))
         die("BRAVO vous êtes connecté");
         //ICI TU Créé la SESSION - Et tu redirige vers la page une fois connecté
         //$_SESSION['user'] = $donnees;
+        $_SESSION['clients'] = $donnees;
+    header("Location: index.php");
+    exit;
     }
     else{
         //die("OOps erreur d'authentification");
