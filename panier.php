@@ -18,7 +18,7 @@ if (isset($_GET['id'])) {
     $_SESSION['panier'][$_GET['id']]++;
   }
 
-
+  header("location : panier.php");
   // echo "<pre>";
   // print_r($_SESSION['panier']);
   // echo "</pre>";
