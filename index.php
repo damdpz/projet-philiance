@@ -37,7 +37,7 @@ require_once("inc/category.inc.php");
         </div>
         <div class="new-product">
             <div class="product">
-                <a href="#">
+                <a href="article.php?id=7">
                     <img src="assets/img/produits/homme/sneakers/Luka 2-homme-129.99-01.jpg" alt="sneaker" />
                     <div class="detail-product">
                         <h4>LUKA 2</h4>
@@ -48,7 +48,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="product">
-                <a href="#">
+                <a href="article.php?id=54">
                     <img src="assets/img/produits/accessoires/casquette/NIKEHERITAGE86 FUTURA WASHED CAP-casquette-22.99-01.jpg" alt="casquette" />
                     <div class="detail-product">
                         <h4>HERITAGE86 FUTURA WASHED CAP</h4>
@@ -60,7 +60,7 @@ require_once("inc/category.inc.php");
             </div>
 
             <div class="product">
-                <a href="#">
+                <a href="article.php?id=48">
                     <img src="assets/img/produits/accessoires/lunette/OAKLEYHSTN-lunette-275.99-01.jpg" alt="lunette" />
                     <div class="detail-product">
                         <h4>HSTN</h4>
@@ -71,7 +71,7 @@ require_once("inc/category.inc.php");
 
             </div>
             <div class="product">
-                <a href="#">
+                <a href="article.php?id=27">
                     <img src="assets/img/produits/femme/jean/Levi's® 501® CROP-femme-59.99-01.jpg" alt="jean" />
                     <div class="detail-product">
                         <h4>501® CROP</h4>
@@ -82,7 +82,7 @@ require_once("inc/category.inc.php");
 
             </div>
             <div class="product">
-                <a href="#">
+                <a href="article.php?id=23">
                     <img src="assets/img/produits/homme/t-shirt/NIKENIKE SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT TOP-homme-49.99-01.jpg" alt="pantalon" />
                     <div class="detail-product">
                         <h4>SOLO SWOOSH SHORT SLEEVE HEAVYWEIGHT</h4>
@@ -105,19 +105,19 @@ require_once("inc/category.inc.php");
             <div class="category-product">
                 <img src="assets/img/trois-blocs/homme.jpg" alt="photo_vêtement" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Homme</a>
+                    <a href="category.php?page=homme" class="category-btn">Homme</a>
                 </div>
             </div>
             <div class="category-product">
                 <img src="assets/img/trois-blocs/femme.jpg" alt="photo_sneakers" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Femme</a>
+                    <a href="category.php?page=femme" class="category-btn">Femme</a>
                 </div>
             </div>
             <div class="category-product">
                 <img src="assets/img/trois-blocs/accessoires.jpg" alt="photo_accessoires" />
                 <div class="overlay-btn">
-                    <a href="#" class="category-btn">Accessoires</a>
+                    <a href="category.php?page=accessoires" class="category-btn">Accessoires</a>
                 </div>
             </div>
         </div>
