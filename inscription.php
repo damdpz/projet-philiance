@@ -83,7 +83,7 @@ if(isset($_POST['valider'])){
             <input type="text" placeholder="Prénom" name="prenom" autocomplete="off" required>
             <label for="prenom"></label>
 
-            <input type="number" placeholder="Numéro de téléphone" name="phone">
+            <input type="text" placeholder="Numéro de téléphone" name="phone">
             <label for="number"></label>
 
             <input type="email" placeholder="Email" name="email" autocomplete="off" required>

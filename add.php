@@ -38,17 +38,30 @@ require_once("inc/category.inc.php");
 
 ?>
 <main>
-    <form method="post">
-        <label for="name">Marque du roduit</label>
-        <input type="text" name="name" id="name">
-        <label for="description">Description du produit</label>
-        <input type="text" name="description" id="description">
-        <label for="price">Prix</label>
-        <input type="text" name="price" id="price">
-        <label for="category_id">Catégorie</label>
-        <input type="number" name="category_id" id="category_id">
-        <button>Enregistrer</button>
-    </form>
+    <div class="form-container">
+        <form class="form" method="post">
+            <div class="champ-input">
+                <label for="name">Marque du roduit</label>
+                <input type="text" name="name" id="name" class="input">
+            </div>
+            <div class="champ-input">
+                <label for="description">Description du produit</label>
+                <input type="text" name="description" id="description" class="input">
+            </div>
+            <div class="champ-input">
+                <label for="price">Prix</label>
+                <input type="text" name="price" id="price" class="input">
+            </div>
+            <div class="champ-input">
+                <label for="category_id">Catégorie</label>
+                <input type="number" name="category_id" id="category_id" class="input">
+            </div>
+            <div>
+            <button>Enregistrer</button>
+            </div>
+        </form>
+        
+    </div>
 
 </main>
 

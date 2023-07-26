@@ -21,12 +21,12 @@ $password = "";
 
 $messageEmail = "";
 
-$msgError = array( "email" => "");
+$msgError = array("email" => "");
 
-if (isset( $_POST["email"])) {
+if (isset($_POST["email"])) {
 
 
-    
+
     $email = trim($_POST["email"]);
 
     $erreur = false;
@@ -38,7 +38,6 @@ if (isset( $_POST["email"])) {
         Attention tous les champs sont obligatoires !
       </div>';
     }
-
 }
 
 ?>
@@ -48,39 +47,41 @@ if (isset( $_POST["email"])) {
     <div class="form1">
 
         <!--FORMULAIRE-->
- <form action="traitement_connexion.php" method="POST" class="connexion">
-    <h1>Mon compte</h1>
+        <form action="traitement_connexion.php" method="POST" class="connexion">
+            <div class="form1-title">
+                <h2>Mon compte</h2>
+            </div>
 
-        <div class="champ">
-        
-        <?php if(isset($_GET['error']) && $_GET['error'] == 2) { ?>
-        <span style="color:red">ERREUR authentification</span><br>
-        <?php } ?>
+            <div class="champ">
 
-        <input type="email" placeholder="Email" name="email" required> <br>
-        <label for="email"></label>
+                <?php if (isset($_GET['error']) && $_GET['error'] == 2) { ?>
+                    <span style="color:red">ERREUR authentification</span><br>
+                <?php } ?>
+
+                <input type="email" placeholder="Email" name="email" required> <br>
+                <label for="email"></label>
 
 
-        <input type="password" placeholder="Mot de passe" name="mdp"> <br>
-        <label for="password"></label>
-        
-        <a href="#" class="pw">Mot de passe oublié</a><br>
+                <input type="password" placeholder="Mot de passe" name="mdp"> <br>
+                <label for="password"></label>
 
-        <input class="btn-connexion" type="submit" value="Connexion" style="
-         margin-top: 20px;"> 
-    </div>
-    </form>
-   
+                <a href="#" class="pw">Mot de passe oublié</a><br>
+
+                <input class="btn-connexion" type="submit" value="Connexion" style="
+         margin-top: 20px;">
+            </div>
+        </form>
+
         <div class="new-client">
             <h4>Nouveau chez Daikles ?</h4>
         </div>
         <div class="champ1">
-           <a href="inscription.php" class="compte">
+            <a href="inscription.php" class="compte">
                 <input type="button" class="btn-create-compte" value="Créer un compte">
             </a>
         </div>
 
-       
+
     </div>
 
 

@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="assets/css/compte.css">
     <link rel="stylesheet" href="assets/css/panier.css">
     <link rel="stylesheet" href="assets/css/subcategory.css">
+    <link rel="stylesheet" href="assets/css/administration.css">
+    <link rel="stylesheet" href="assets/css/details.css">
+    <link rel="stylesheet" href="assets/css/add.css">
+    <link rel="stylesheet" href="assets/css/edit.css">
     <link rel="shortcut icon" href="assets/img/logo/LOGO_DAIKLES.jpg">
     <script defer src="assets/js/index.js"></script>
     <script defer src="assets/js/panier.js"></script>
