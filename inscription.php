@@ -23,7 +23,7 @@ $host = "mysql:host=localhost;dbname=daikles"; // hôte + bdd
     $pdo = new PDO($host, $login, $password, $options);
 
 if(isset($_POST['valider'])){
-    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email']) AND !empty($_POST['adresse']) AND !empty($_POST['mdp']) AND !empty($_POST['validation_password'])){
+    if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email']) AND !empty($_POST['adresse']) AND !empty($_POST['mdp'])){
 
         $nom = htmlentities($_POST["nom"]);
         $prenom = htmlentities($_POST["prenom"]);
@@ -31,7 +31,7 @@ if(isset($_POST['valider'])){
         $email = htmlentities($_POST["email"]);
         $adresse = htmlentities($_POST["adresse"]);
         $mdp = sha1($_POST["mdp"]);
-        $mdp_validation = htmlentities($_POST["validation_password"]);
+        //$mdp_validation = htmlentities($_POST["validation_password"]);
 
         $insertUser = $pdo->prepare('INSERT INTO clients(nom, prenom, email, mdp, adresse, phone)VALUE(?, ?, ?, ?, ?, ?)');
         $insertUser->execute(array($nom, $prenom, $email, $mdp, $adresse, $phone));
