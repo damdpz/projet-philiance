@@ -10,6 +10,17 @@ require_once("inc/head.inc.php");
 require_once("inc/nav.inc.php");
 require_once("inc/category.inc.php");
 
+$pdo = get_connection();
+// On écrit notre requête
+$sql = "SELECT * FROM product";
+// On prépare la requête
+$query = $pdo->prepare($sql);
+// On exécute la requête
+$query->execute();
+// On stocke le résultat dans un tableau associatif
+$result = $query->fetchAll(PDO::FETCH_ASSOC);
+
+
 ?>
 
 </main>
@@ -17,46 +28,29 @@ require_once("inc/category.inc.php");
     <table>
         <tr>
             <th>ID</th>
-            <th>Image</th>
+            <!-- <th>Image</th> -->
             <th>Nom</th>
-            <th>Référence</th>
+            <th>Description</th>
             <th>Catégorie</th>
             <th>Prix</th>
-            <th>Quantité</th>
-            <th>Status</th>
         </tr>
+        <?php
+        foreach ($result as $product){
+            ?>
         <tr>
-            <td>1</td>
-            <td><img src="image1.jpg" alt="Image 1"></td>
-            <td>Produit 1</td>
-            <td>REF001</td>
-            <td>Catégorie 1</td>
-            <td>10.99€</td>
-            <td>100</td>
-            <td>En stock</td>
+            <td><?= $product['id']; ?></td>
+            <!-- <td><img src="image1.jpg" alt="Image 1"></td> -->
+            <td><?= $product['name']; ?></td>
+            <td><?= $product['description']; ?></td>
+            <td><?= $product['category_id']; ?></td>
+            <td><?= $product['price']." €"; ?></td>
+            <td><a href="details.php?id=<?= $product['id'] ?>">Détails</a> <a href="edit.php?id=<?= $product['id'] ?>">Modifier</a>  <a href="delete.php?id=<?= $product['id'] ?>">Supprimer</a></td>
         </tr>
-        <tr>
-            <td>2</td>
-            <td><img src="image2.jpg" alt="Image 2"></td>
-            <td>Produit 2</td>
-            <td>REF002</td>
-            <td>Catégorie 2</td>
-            <td>24.50€</td>
-            <td>50</td>
-            <td>En stock</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td><img src="image3.jpg" alt="Image 3"></td>
-            <td>Produit 3</td>
-            <td>REF003</td>
-            <td>Catégorie 1</td>
-            <td>18.75€</td>
-            <td>75</td>
-            <td>En rupture de stock</td>
-        </tr>
+        <?php
+        }
+        ?>
     </table>
-
+    <a href="add.php">Ajouter</a>
 </main>
 
 <?php
