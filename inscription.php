@@ -30,7 +30,7 @@ if(isset($_POST['valider'])){
         $phone = htmlentities($_POST["phone"]);
         $email = htmlentities($_POST["email"]);
         $adresse = htmlentities($_POST["adresse"]);
-        $mdp = htmlentities($_POST["mdp"]);
+        $mdp = sha1($_POST["mdp"]);
         $mdp_validation = htmlentities($_POST["validation_password"]);
 
         $insertUser = $pdo->prepare('INSERT INTO clients(nom, prenom, email, mdp, adresse, phone)VALUE(?, ?, ?, ?, ?, ?)');
@@ -73,31 +73,31 @@ if(isset($_POST['valider'])){
             <?php 
             if(isset($success) && $success == true)
             {
-                echo "<span class='color:green'>Votre inscription a bien été pris en compte ! Veuillez vous <a href='compte.php'>connecter ici</a></span><br>"; 
+                echo "<span class='color:green'>Votre inscription a bien été pris en compte ! <br>Veuillez vous <a href='compte.php'>connecter ici</a></span><br>"; 
             }
             ?>            
 
-            <input type="text" placeholder="Nom" name="nom" autocomplete="off">
+            <input type="text" placeholder="Nom" name="nom" autocomplete="off" required>
             <label for="nom"></label>
 
-            <input type="text" placeholder="Prénom" name="prenom" autocomplete="off">
+            <input type="text" placeholder="Prénom" name="prenom" autocomplete="off" required>
             <label for="prenom"></label>
 
             <input type="number" placeholder="Numéro de téléphone" name="phone">
             <label for="number"></label>
 
-            <input type="email" placeholder="Email" name="email" autocomplete="off">
+            <input type="email" placeholder="Email" name="email" autocomplete="off" required>
             <label for="email"></label>
             <? $msgError["email"] ?>
 
-            <input type="text" placeholder="Adresse" name="adresse" autocomplete="off">
+            <input type="text" placeholder="Adresse" name="adresse" autocomplete="off" required>
             <label for="adresse"></label>
 
             <input type="password" placeholder="Mot de passe" name="mdp">
             <label for="password"></label>
 
-            <input type="password" placeholder="Répéter le mot de passe" name="validation_password">
-            <label for="validation_password"></label>
+            <!--<input type="password" placeholder="Répéter le mot de passe" name="validation_password">
+            <label for="validation_password"></label>-->
 
             <a href="">
             <input class="btn-valider" type="submit" value="Valider" name="valider"></a>

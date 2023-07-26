@@ -37,13 +37,20 @@ h1{
 
 }
 
-.connexion1 input[type="text"], input[type="email"], input[type="number"]{
+.connexion1 input[type="text"], input[type="email"]{
     border: none;
     border-bottom: 1px solid rgb(112, 111, 111, .3);
     background-color:rgb(255, 255, 255, .3);
     padding: 10px;
 
 }
+
+input[type="number"] {
+    width: 165px;
+    height: 36px;
+    
+}
+
 
 input[type="password"] {
     padding: 25px;
@@ -55,7 +62,7 @@ input[type="password"] {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type="date"]{
+/*input[type="date"]{
 
     border: none;
     border-bottom: 1px solid rgb(112, 111, 111, .3);
@@ -63,7 +70,7 @@ input[type="date"]{
     padding: 40px;
 
 
-}
+}*/
 
 .btn-valider{
     border:solid 2px black;
@@ -85,4 +92,14 @@ input[type="date"]{
     border-radius: 20px;
     border: solid 2px black;
     cursor: pointer;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
